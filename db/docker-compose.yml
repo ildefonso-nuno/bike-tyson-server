@@ -1,0 +1,16 @@
+services:
+  db:
+    image: postgres:latest
+    container_name: stolenbikes-pg
+    environment:
+      POSTGRES_DB: stolenbikes-db
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: qwertz
+      PGDATA: /var/lib/postgresql/data/pgdata
+    ports:
+      - '5432:5432'
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
