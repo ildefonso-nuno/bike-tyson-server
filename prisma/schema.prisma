@@ -1,0 +1,101 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id           Int          @id @default(autoincrement())
+  auth0_id     String?      @unique
+  email        String       @unique
+  first_name   String
+  last_name    String
+  created_at   DateTime
+  updated_at   DateTime
+  profiles     UserProfile?
+  bicycles     Bicycle[]
+  user_reports UserReport[]
+}
+
+model UserProfile {
+  id              Int       @id @default(autoincrement())
+  user_id         Int       @unique
+  address         String?
+  phone_number    String?
+  date_of_birth   DateTime?
+  profile_pic_url String?
+  created_at      DateTime
+  updated_at      DateTime
+  user            User      @relation(fields: [user_id], references: [id])
+}
+
+model Bicycle {
+  id          Int          @id @default(autoincrement())
+  user_id     Int
+  name        String
+  brand       String
+  model       String
+  type        String
+  value       Float
+  frame_num   String
+  frame_size  String
+  colour      String
+  gender      String
+  description String?
+  photos_url  String[]
+  owner       Boolean
+  created_at  DateTime
+  updated_at  DateTime
+  user        User         @relation(fields: [user_id], references: [id])
+  reports     UserReport[]
+}
+
+model UserReport {
+  id             Int         @id @default(autoincrement())
+  user_id        Int
+  bike_id        Int
+  start_datetime DateTime
+  end_datetime   DateTime?
+  lor_code       String
+  gps            String?
+  description    String?
+  created_at     DateTime
+  updated_at     DateTime
+  user           User        @relation(fields: [user_id], references: [id])
+  bicycle        Bicycle     @relation(fields: [bike_id], references: [id])
+  berlin_area    BerlinArea? @relation(name: "BerlinAreaToUserReport", fields: [lor_code], references: [lor_code])
+}
+
+model PoliceReport {
+  id             Int         @id @default(autoincrement())
+  start_datetime DateTime
+  end_datetime   DateTime?
+  lor_code       String
+  value          Float
+  type_bicycle   String
+  created_at     DateTime
+  updated_at     DateTime
+  berlin_area    BerlinArea? @relation(name: "BerlinAreaToPoliceReport", fields: [lor_code], references: [lor_code])
+}
+
+model BerlinArea {
+  id             Int            @id @default(autoincrement())
+  lor_code       String         @unique
+  area_name      String
+  parent_code    String?
+  population     Int
+  level          Int
+  created_at     DateTime
+  updated_at     DateTime
+  user_reports   UserReport[]   @relation("BerlinAreaToUserReport")
+  police_reports PoliceReport[] @relation("BerlinAreaToPoliceReport")
+}
