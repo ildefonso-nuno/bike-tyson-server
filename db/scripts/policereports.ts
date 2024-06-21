@@ -7,7 +7,7 @@ const prisma = new PrismaClient();
 async function main() {
   const results: any[] = [];
 
-  fs.createReadStream('./csv/BerlinBikeThefts.csv') // Replace with the path to your CSV file
+  fs.createReadStream('./db/scripts/csv/BerlinBikeThefts.csv') // Replace with the path to your CSV file
     .pipe(csv())
     .on('data', (data) => results.push(data))
     .on('end', async () => {
