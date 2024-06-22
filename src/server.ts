@@ -3,6 +3,7 @@ import express from 'express';
 import cors, { CorsOptions } from 'cors';
 import prisma from './middlewares/prisma';
 import bicycleRoutes from './routes/bicycle.routes';
+import userReportRoutes from './routes/userReport.routes';
 
 dotenv.config();
 
@@ -11,7 +12,8 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 // CORS configuration options
-const allowedOrigins = ['http://localhost:4200', 'http://localhost:3000'];
+// const allowedOrigins = ['http://localhost:4200', 'http://localhost:3000'];
+const allowedOrigins = ['*'];
 const corsOptions: CorsOptions = {
   origin: (origin, callback) => {
     // Allow requests with no origin (like Postman)
@@ -33,6 +35,7 @@ app.use(cors(corsOptions));
 
 // Routes
 app.use('/api/bicycles', bicycleRoutes);
+app.use('/api/user-reports', userReportRoutes);
 
 app.get('/', (req, res) => {
   res.status(200).send('BikeTyson API');
