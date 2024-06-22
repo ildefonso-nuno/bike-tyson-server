@@ -1,7 +1,8 @@
 import dotenv from 'dotenv';
 import express from 'express';
 import cors, { CorsOptions } from 'cors';
-import prisma from './prisma';
+import prisma from './middlewares/prisma';
+import bicycleRoutes from './routes/bicycle.routes';
 
 dotenv.config();
 
@@ -31,6 +32,8 @@ app.use(express.json());
 app.use(cors(corsOptions));
 
 // Routes
+app.use('/api/bicycles', bicycleRoutes);
+
 app.get('/', (req, res) => {
   res.status(200).send('BikeTyson API');
 });

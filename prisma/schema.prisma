@@ -19,8 +19,8 @@ model User {
   email        String       @unique
   first_name   String
   last_name    String
-  created_at   DateTime
-  updated_at   DateTime
+  created_at   DateTime     @default(now())
+  updated_at   DateTime     @updatedAt
   profiles     UserProfile?
   bicycles     Bicycle[]
   user_reports UserReport[]
@@ -33,8 +33,8 @@ model UserProfile {
   phone_number    String?
   date_of_birth   DateTime?
   profile_pic_url String?
-  created_at      DateTime
-  updated_at      DateTime
+  created_at      DateTime  @default(now())
+  updated_at      DateTime  @updatedAt
   user            User      @relation(fields: [user_id], references: [id])
 }
 
@@ -53,9 +53,9 @@ model Bicycle {
   description String?
   photos_url  String[]
   owner       Boolean
-  created_at  DateTime
-  updated_at  DateTime
-  user        User         @relation(fields: [user_id], references: [id])
+  created_at  DateTime    @default(now())
+  updated_at  DateTime    @updatedAt
+  user        User        @relation(fields: [user_id], references: [id])
   reports     UserReport[]
 }
 
@@ -82,8 +82,8 @@ model PoliceReport {
   lor_code       String
   value          Float
   type_bicycle   String
-  created_at     DateTime
-  updated_at     DateTime
+  created_at     DateTime    @default(now())
+  updated_at     DateTime    @updatedAt
   berlin_area    BerlinArea? @relation(name: "BerlinAreaToPoliceReport", fields: [lor_code], references: [lor_code])
 }
 
@@ -94,8 +94,8 @@ model BerlinArea {
   parent_code    String?
   population     Int
   level          Int
-  created_at     DateTime
-  updated_at     DateTime
+  created_at     DateTime       @default(now())
+  updated_at     DateTime       @updatedAt
   user_reports   UserReport[]   @relation("BerlinAreaToUserReport")
   police_reports PoliceReport[] @relation("BerlinAreaToPoliceReport")
 }
