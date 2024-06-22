@@ -68,8 +68,8 @@ model UserReport {
   lor_code       String
   gps            String?
   description    String?
-  created_at     DateTime
-  updated_at     DateTime
+  created_at     DateTime    @default(now())
+  updated_at     DateTime    @updatedAt
   user           User        @relation(fields: [user_id], references: [id])
   bicycle        Bicycle     @relation(fields: [bike_id], references: [id])
   berlin_area    BerlinArea? @relation(name: "BerlinAreaToUserReport", fields: [lor_code], references: [lor_code])
