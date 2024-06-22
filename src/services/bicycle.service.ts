@@ -23,3 +23,21 @@ export const getAllBicycles = async (): Promise<Bicycle[]> => {
     throw new Error('Error fetching bicycles');
   }
 };
+
+export const updateBicycle = async (
+  id: number,
+  data: Prisma.BicycleUpdateInput
+) => {
+  try {
+    const updatedBicycle = await prisma.bicycle.update({
+      where: { id },
+      data: {
+        ...data,
+        updated_at: new Date(),
+      },
+    });
+    return updatedBicycle;
+  } catch (error) {
+    throw new Error('Error updating bicycle');
+  }
+};

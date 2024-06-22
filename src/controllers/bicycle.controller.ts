@@ -1,5 +1,9 @@
 import { Request, Response } from 'express';
-import { getAllBicycles, createBicycle } from '../services/bicycle.service';
+import {
+  getAllBicycles,
+  createBicycle,
+  updateBicycle,
+} from '../services/bicycle.service';
 
 export const createBicycleController = async (
   req: Request,
@@ -22,5 +26,18 @@ export const getAllBicyclesController = async (
     res.status(200).json(bicycles);
   } catch (error) {
     res.status(500).json({ error: 'Failed to fetch bicycles' });
+  }
+};
+
+export const updateBicycleController = async (
+  req: Request,
+  res: Response
+): Promise<void> => {
+  try {
+    const { id, ...updateData } = req.body;
+    const updatedBicycle = await updateBicycle(id, updateData);
+    res.status(200).json(updatedBicycle);
+  } catch (error) {
+    res.status(500).json({ error: 'Failed to update bicycle' });
   }
 };
