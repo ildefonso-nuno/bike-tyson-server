@@ -1,20 +1,16 @@
 import dotenv from 'dotenv';
 import express from 'express';
 import cors, { CorsOptions } from 'cors';
+import prisma from './prisma';
 
-// Load environment variables from .env file
 dotenv.config();
 
-// Create an instance of express application
 const app = express();
 
-// Define the port from environment variables or fallback to 3000
 const port = process.env.PORT || 3000;
 
-// Define allowed origins for CORS
-const allowedOrigins = ['http://localhost:4200', 'http://localhost:3000'];
-
 // CORS configuration options
+const allowedOrigins = ['http://localhost:4200', 'http://localhost:3000'];
 const corsOptions: CorsOptions = {
   origin: (origin, callback) => {
     // Allow requests with no origin (like Postman)
@@ -30,18 +26,31 @@ const corsOptions: CorsOptions = {
   optionsSuccessStatus: 200, // For legacy browser support
 };
 
-// Middleware to parse JSON bodies
+// Middlewares
 app.use(express.json());
-
-// Enable CORS with the defined options
 app.use(cors(corsOptions));
 
-// Define a simple route for the root URL
+// Routes
 app.get('/', (req, res) => {
   res.status(200).send('BikeTyson API');
 });
 
-// Start the server and listen on the defined port
-app.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
-});
+// Test DB connection, start the server and listen on the defined port
+const testDatabaseConnection = async () => {
+  try {
+    await prisma.$connect();
+    console.log('Database connection successful:', process.env.DATABASE_URL);
+  } catch (error) {
+    console.error('Database connection failed', error);
+    process.exit(1);
+  }
+};
+
+const startServer = async () => {
+  await testDatabaseConnection();
+  app.listen(port, () => {
+    console.log(`Server is running on port ${port}`);
+  });
+};
+
+startServer();
