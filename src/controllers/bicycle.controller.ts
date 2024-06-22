@@ -3,6 +3,7 @@ import {
   getAllBicycles,
   createBicycle,
   updateBicycle,
+  deleteBicycle,
 } from '../services/bicycle.service';
 
 export const createBicycleController = async (
@@ -39,5 +40,18 @@ export const updateBicycleController = async (
     res.status(200).json(updatedBicycle);
   } catch (error) {
     res.status(500).json({ error: 'Failed to update bicycle' });
+  }
+};
+
+export const deleteBicycleController = async (
+  req: Request,
+  res: Response
+): Promise<void> => {
+  try {
+    const { id } = req.body;
+    await deleteBicycle(id);
+    res.status(204).send();
+  } catch (error) {
+    res.status(500).json({ error: 'Failed to delete bicycle' });
   }
 };

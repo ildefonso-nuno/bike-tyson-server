@@ -41,3 +41,13 @@ export const updateBicycle = async (
     throw new Error('Error updating bicycle');
   }
 };
+
+export const deleteBicycle = async (id: number) => {
+  try {
+    await prisma.bicycle.delete({
+      where: { id },
+    });
+  } catch (error) {
+    throw new Error('Error deleting bicycle');
+  }
+};
