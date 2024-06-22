@@ -1,4 +1,4 @@
-import prisma from '../prisma';
+import prisma from '../middlewares/prisma';
 import { Bicycle } from '../models/bicycle.model';
 import { Prisma } from '@prisma/client';
 

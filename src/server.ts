@@ -1,7 +1,7 @@
 import dotenv from 'dotenv';
 import express from 'express';
 import cors, { CorsOptions } from 'cors';
-import prisma from './prisma';
+import prisma from './middlewares/prisma';
 import bicycleRoutes from './routes/bicycle.routes';
 
 dotenv.config();
