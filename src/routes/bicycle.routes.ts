@@ -1,5 +1,4 @@
 import { Router } from 'express';
-import upload from '../configs/multer.config';
 import {
   getAllBicyclesController,
   createBicycleController,
@@ -10,13 +9,13 @@ import {
 const router = Router();
 
 // Create a new bicycle
-router.post('/', upload.array('photos', 10), createBicycleController);
+router.post('/', createBicycleController);
 
 // Get all bicycles
 router.get('/', getAllBicyclesController);
 
 // Update a bicycle
-router.put('/', upload.array('photos', 10), updateBicycleController);
+router.put('/', updateBicycleController);
 
 // Delete a bicycle
 router.delete('/', deleteBicycleController);

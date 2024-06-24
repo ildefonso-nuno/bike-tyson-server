@@ -1,6 +1,4 @@
 import { Request, Response } from 'express';
-import { isError } from '../helpers/typeGuards';
-import { handlePhotoUpload } from '../helpers/photoUploadHelper';
 import {
   getAllBicycles,
   createBicycle,
@@ -13,25 +11,10 @@ export const createBicycleController = async (
   res: Response
 ): Promise<void> => {
   try {
-    // Create bicycle without photo URL first
     const newBicycle = await createBicycle(req.body);
-
-    try {
-      const photosUrlArray = await handlePhotoUpload(req, res, newBicycle.id);
-      res.status(201).json({ ...newBicycle, photos_url: photosUrlArray });
-    } catch (error) {
-      if (isError(error)) {
-        res.status(500).json({ error: error.message });
-      } else {
-        res.status(500).json({ error: 'Unknown error occurred' });
-      }
-    }
+    res.status(200).json(newBicycle);
   } catch (error) {
-    if (isError(error)) {
-      res.status(500).json({ error: error.message });
-    } else {
-      res.status(500).json({ error: 'Failed to create bicycle' });
-    }
+    res.status(500).json({ error: 'Failed to create bicycle' });
   }
 };
 
@@ -55,22 +38,9 @@ export const updateBicycleController = async (
     const { id, ...updateData } = req.body;
     const updatedBicycle = await updateBicycle(id, updateData);
 
-    try {
-      const photosUrlArray = await handlePhotoUpload(req, res, id);
-      res.status(200).json({ ...updatedBicycle, photos_url: photosUrlArray });
-    } catch (error) {
-      if (isError(error)) {
-        res.status(500).json({ error: error.message });
-      } else {
-        res.status(500).json({ error: 'Unknown error occurred' });
-      }
-    }
+    res.status(200).json(updatedBicycle);
   } catch (error) {
-    if (isError(error)) {
-      res.status(500).json({ error: error.message });
-    } else {
-      res.status(500).json({ error: 'Failed to update bicycle' });
-    }
+    res.status(500).json({ error: 'Failed to update bicycle' });
   }
 };
 
