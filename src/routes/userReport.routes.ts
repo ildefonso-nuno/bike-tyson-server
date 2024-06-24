@@ -4,12 +4,16 @@ import {
   createUserReportController,
   updateUserReportController,
   deleteUserReportController,
+  getUserReportByIdController,
 } from '../controllers/userReport.controller';
 
 const router = Router();
 
 // Create a new user report
 router.post('/', createUserReportController);
+
+// Get user report by user report id
+router.post('/', getUserReportByIdController);
 
 // Get all user reports
 router.get('/', getAllUserReportsController);

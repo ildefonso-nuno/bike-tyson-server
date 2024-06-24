@@ -24,6 +24,12 @@ export const getAllUserReports = async (): Promise<UserReport[]> => {
   }
 };
 
+export const getUserReportById = async (id: number): Promise<UserReport | null> => {
+  return prisma.userReport.findUnique({
+    where: {id}
+  });
+};
+
 export const updateUserReport = async (
   id: number,
   data: Prisma.UserReportUpdateInput

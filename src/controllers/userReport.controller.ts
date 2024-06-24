@@ -1,6 +1,7 @@
 import { Request, Response } from 'express';
 import {
   getAllUserReports,
+  getUserReportById,
   createUserReport,
   updateUserReport,
   deleteUserReport,
@@ -27,6 +28,19 @@ export const getAllUserReportsController = async (
     res.status(200).json(reports);
   } catch (error) {
     res.status(500).json({ error: 'Failed to fetch user reports' });
+  }
+};
+
+export const getUserReportByIdController = async (
+    req: Request,
+    res: Response
+): Promise<void> => {
+  const { id } = req.params;
+  try {
+    const reports = await getUserReportById(Number(id));
+    res.status(200).json(reports);
+  } catch (error) {
+    res.status(500).json({ error: 'Failed to fetch user report by id' });
   }
 };
 
