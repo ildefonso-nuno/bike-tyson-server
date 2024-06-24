@@ -34,9 +34,6 @@ export const uploadPhotosController = async (
           push: publicUrls,
         },
       });
-    } else {
-      res.status(400).json({ error: 'Invalid bucket name' });
-      return;
     }
 
     res.status(201).json({ urls: publicUrls });

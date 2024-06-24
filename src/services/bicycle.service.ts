@@ -11,7 +11,6 @@ export const createBicycle = async (
     });
     return newBicycle;
   } catch (error) {
-    console.log(error);
     throw new Error('Error creating bicycle');
   }
 };
@@ -21,7 +20,6 @@ export const getAllBicycles = async (): Promise<Bicycle[]> => {
     const bicycles = await prisma.bicycle.findMany();
     return bicycles;
   } catch (error) {
-    console.log(error);
     throw new Error('Error fetching bicycles');
   }
 };
@@ -40,8 +38,6 @@ export const updateBicycle = async (
     });
     return updatedBicycle;
   } catch (error) {
-    console.log;
-    console.log(error);
     throw new Error('Error updating bicycle');
   }
 };
@@ -52,7 +48,6 @@ export const deleteBicycle = async (id: number) => {
       where: { id },
     });
   } catch (error) {
-    console.log(error);
     throw new Error('Error deleting bicycle');
   }
 };
