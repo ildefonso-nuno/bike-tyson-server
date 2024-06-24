@@ -5,6 +5,7 @@ import prisma from './middlewares/prisma';
 import bicycleRoutes from './routes/bicycle.routes';
 import userReportRoutes from './routes/userReport.routes';
 import photoRoutes from './routes/photo.routes';
+import dataRoutes from './routes/data.routes';
 
 dotenv.config();
 
@@ -38,6 +39,8 @@ app.use(cors(corsOptions));
 app.use('/api/bicycles', bicycleRoutes);
 app.use('/api/user-reports', userReportRoutes);
 app.use('/api/photos', photoRoutes);
+
+app.use('/api/data', dataRoutes);
 
 app.get('/', (req, res) => {
   res.status(200).send('BikeTyson API');
