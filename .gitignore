@@ -21,6 +21,9 @@ lerna-debug.log*
 # TypeScript
 *.tsbuildinfo
 
+# Credentials
+credentials/
+
 # Production
 dist/
 build/

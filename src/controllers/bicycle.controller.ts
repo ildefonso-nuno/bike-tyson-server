@@ -12,7 +12,7 @@ export const createBicycleController = async (
 ): Promise<void> => {
   try {
     const newBicycle = await createBicycle(req.body);
-    res.status(201).json(newBicycle);
+    res.status(200).json(newBicycle);
   } catch (error) {
     res.status(500).json({ error: 'Failed to create bicycle' });
   }
@@ -37,6 +37,7 @@ export const updateBicycleController = async (
   try {
     const { id, ...updateData } = req.body;
     const updatedBicycle = await updateBicycle(id, updateData);
+
     res.status(200).json(updatedBicycle);
   } catch (error) {
     res.status(500).json({ error: 'Failed to update bicycle' });
