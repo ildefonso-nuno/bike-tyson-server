@@ -38,7 +38,7 @@ export const getPoliceReportAnalytics = async (startDatetime: Date) => {
     },
   });
 
-  const lorStats = lorData.map((area) => {
+  const lorStats = lorData.reduce((acc, area) => {
     const numThefts = area._count.police_reports;
     const theftValue = area.police_reports.reduce(
       (sum, report) => sum + report.value,
@@ -58,7 +58,7 @@ export const getPoliceReportAnalytics = async (startDatetime: Date) => {
       return { date: dateString, count };
     }).reverse();
 
-    return {
+    acc[area.lor_code] = {
       lor_code: area.lor_code,
       num_thefts: numThefts,
       theft_percentage: (numThefts / totalThefts) * 100,
@@ -67,14 +67,16 @@ export const getPoliceReportAnalytics = async (startDatetime: Date) => {
       thefts_per_population: theftsPerPopulation,
       thefts_by_day: theftsByDay,
     };
-  });
+
+    return acc;
+  }, {} as Record<string, any>);
 
   // Determine min and max theft_percentage for normalization
   const minTheftPercentage = Math.min(
-    ...lorStats.map((stat) => stat.theft_percentage)
+    ...Object.values(lorStats).map((stat) => stat.theft_percentage)
   );
   const maxTheftPercentage = Math.max(
-    ...lorStats.map((stat) => stat.theft_percentage)
+    ...Object.values(lorStats).map((stat) => stat.theft_percentage)
   );
 
   // Normalize theft_percentage to color level (0 to 10)
@@ -86,14 +88,20 @@ export const getPoliceReportAnalytics = async (startDatetime: Date) => {
     return ((value - min) / (max - min)) * 10;
   };
 
-  const lorStatsWithColorLevel = lorStats.map((stat) => ({
-    ...stat,
-    color_level: normalizeColorLevel(
-      stat.theft_percentage * 1000,
-      minTheftPercentage * 1000,
-      maxTheftPercentage * 1000
-    ),
-  }));
+  const lorStatsWithColorLevel = Object.keys(lorStats).reduce(
+    (acc, lor_code) => {
+      acc[lor_code] = {
+        ...lorStats[lor_code],
+        color_level: normalizeColorLevel(
+          lorStats[lor_code].theft_percentage * 1000,
+          minTheftPercentage * 1000,
+          maxTheftPercentage * 1000
+        ),
+      };
+      return acc;
+    },
+    {} as Record<string, any>
+  );
 
   return {
     total_thefts: totalThefts,
