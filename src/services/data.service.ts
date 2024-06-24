@@ -1,22 +1,24 @@
 import prisma from '../middlewares/prisma';
-import { subDays, format } from 'date-fns';
+import {
+  calculateTotalThefts,
+  calculateTotalValue,
+  calculateLORStats,
+  determineMinMaxTheftPercentage,
+  addColorLevelsToLORStats,
+} from '../helpers/data-analysis';
 
-export const getPoliceReportAnalytics = async (startDatetime: Date) => {
-  const policeReports = await prisma.policeReport.findMany({
+export async function fetchPoliceReports(startDatetime: Date) {
+  return prisma.policeReport.findMany({
     where: {
       start_datetime: {
         gte: startDatetime,
       },
     },
   });
+}
 
-  const totalThefts = policeReports.length;
-  const totalValue = policeReports.reduce(
-    (sum, report) => sum + report.value,
-    0
-  );
-
-  const lorData = await prisma.berlinArea.findMany({
+export async function fetchLORData(startDatetime: Date) {
+  return prisma.berlinArea.findMany({
     where: {
       level: 4,
     },
@@ -25,83 +27,29 @@ export const getPoliceReportAnalytics = async (startDatetime: Date) => {
         select: { police_reports: true },
       },
       police_reports: {
+        select: {
+          value: true,
+          start_datetime: true,
+        },
         where: {
           start_datetime: {
             gte: startDatetime,
           },
         },
-        select: {
-          value: true,
-          start_datetime: true,
-        },
       },
     },
   });
+}
 
-  const lorStats = lorData.reduce((acc, area) => {
-    const numThefts = area._count.police_reports;
-    const theftValue = area.police_reports.reduce(
-      (sum, report) => sum + report.value,
-      0
-    );
-    const theftsPerPopulation = area.population
-      ? (numThefts / area.population) * 1000
-      : 0;
+export const getPoliceReportAnalytics = async (startDatetime: Date) => {
+  const policeReports = await fetchPoliceReports(startDatetime);
+  const totalThefts = calculateTotalThefts(policeReports);
+  const totalValue = calculateTotalValue(policeReports);
+  const lorData = await fetchLORData(startDatetime);
+  const lorStats = calculateLORStats(lorData, totalThefts);
 
-    // Calculate thefts per day for the last 7 days
-    const theftsByDay = Array.from({ length: 7 }, (_, i) => {
-      const date = subDays(new Date(), i + 1);
-      const dateString = format(date, 'yyyy-MM-dd');
-      const count = area.police_reports.filter(
-        (report) => format(report.start_datetime, 'yyyy-MM-dd') === dateString
-      ).length;
-      return { date: dateString, count };
-    }).reverse();
-
-    acc[area.lor_code] = {
-      lor_code: area.lor_code,
-      num_thefts: numThefts,
-      theft_percentage: (numThefts / totalThefts) * 100,
-      population: area.population,
-      total_value: theftValue,
-      thefts_per_population: theftsPerPopulation,
-      thefts_by_day: theftsByDay,
-    };
-
-    return acc;
-  }, {} as Record<string, any>);
-
-  // Determine min and max theft_percentage for normalization
-  const minTheftPercentage = Math.min(
-    ...Object.values(lorStats).map((stat) => stat.theft_percentage)
-  );
-  const maxTheftPercentage = Math.max(
-    ...Object.values(lorStats).map((stat) => stat.theft_percentage)
-  );
-
-  // Normalize theft_percentage to color level (0 to 10)
-  const normalizeColorLevel = (
-    value: number,
-    min: number,
-    max: number
-  ): number => {
-    return ((value - min) / (max - min)) * 10;
-  };
-
-  const lorStatsWithColorLevel = Object.keys(lorStats).reduce(
-    (acc, lor_code) => {
-      acc[lor_code] = {
-        ...lorStats[lor_code],
-        color_level: normalizeColorLevel(
-          lorStats[lor_code].theft_percentage * 1000,
-          minTheftPercentage * 1000,
-          maxTheftPercentage * 1000
-        ),
-      };
-      return acc;
-    },
-    {} as Record<string, any>
-  );
+  const { min, max } = determineMinMaxTheftPercentage(lorStats);
+  const lorStatsWithColorLevel = addColorLevelsToLORStats(lorStats, min, max);
 
   return {
     total_thefts: totalThefts,
