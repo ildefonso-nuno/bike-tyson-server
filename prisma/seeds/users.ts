@@ -7,7 +7,7 @@ export async function seedUsers() {
     where: { id: 1 },
     update: {},
     create: {
-      auth0_id: 'auth0|123456',
+      google_id: 'auth0|123456',
       email: 'user@example.com',
       first_name: 'John',
       last_name: 'Doe',
@@ -20,7 +20,7 @@ export async function seedUsers() {
     where: { id: 1 },
     update: {},
     create: {
-      auth0_id: 'auth0_id_2',
+      google_id: 'auth0_id_2',
       email: 'user2@example.com',
       first_name: 'Jane',
       last_name: 'Smith',
