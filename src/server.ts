@@ -5,6 +5,7 @@ import prisma from './middlewares/prisma';
 import bicycleRoutes from './routes/bicycle.routes';
 import userReportRoutes from './routes/userReport.routes';
 import photoRoutes from './routes/photo.routes';
+import dataRoutes from './routes/data.routes';
 
 dotenv.config();
 
@@ -13,20 +14,24 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 // CORS configuration options
-// const allowedOrigins = ['http://localhost:4200', 'http://localhost:3000'];
-const allowedOrigins = ['*'];
-const corsOptions: CorsOptions = {
-  origin: (origin, callback) => {
-    // Allow requests with no origin (like Postman)
-    if (!origin) return callback(null, true);
+// const allowedOrigins = ['http://localhost:5175', 'http://localhost:3000'];
+// const corsOptions: CorsOptions = {
+//   origin: (origin, callback) => {
+//     // Allow requests with no origin (like Postman)
+//     if (!origin) return callback(null, true);
 
-    // Allow requests from allowed origins
-    if (allowedOrigins.indexOf(origin) !== -1) {
-      callback(null, true);
-    } else {
-      callback(new Error('Not allowed by CORS'));
-    }
-  },
+//     // Allow requests from allowed origins
+//     if (allowedOrigins.indexOf(origin) !== -1) {
+//       callback(null, true);
+//     } else {
+//       callback(new Error('Not allowed by CORS'));
+//     }
+//   },
+//   optionsSuccessStatus: 200, // For legacy browser support
+// };
+
+const corsOptions: CorsOptions = {
+  origin: true, // Allow all origins
   optionsSuccessStatus: 200, // For legacy browser support
 };
 
@@ -38,6 +43,8 @@ app.use(cors(corsOptions));
 app.use('/api/bicycles', bicycleRoutes);
 app.use('/api/user-reports', userReportRoutes);
 app.use('/api/photos', photoRoutes);
+
+app.use('/api/data', dataRoutes);
 
 app.get('/', (req, res) => {
   res.status(200).send('BikeTyson API');
