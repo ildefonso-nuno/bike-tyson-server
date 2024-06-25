@@ -32,10 +32,10 @@ async function deleteAllFilesInDirectory(directory: string): Promise<void> {
 
 async function getLatestDate(): Promise<Date | null> {
   const latestReport = await prisma.policeReport.findFirst({
-    orderBy: { created_at: 'desc' },
+    orderBy: { created_datetime: 'desc' },
   });
 
-  return latestReport ? latestReport.created_at : new Date('2020-01-01');
+  return latestReport ? latestReport.created_datetime : new Date('2020-01-01');
 }
 
 async function processCSVFile(csvPath: string): Promise<void> {
@@ -91,6 +91,7 @@ async function processCSVFile(csvPath: string): Promise<void> {
 
             await prisma.policeReport.create({
               data: {
+                created_datetime: createdDatetime,
                 start_datetime: startDatetime,
                 end_datetime: endDatetime,
                 lor_code: lor,

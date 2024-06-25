@@ -77,15 +77,16 @@ model UserReport {
 }
 
 model PoliceReport {
-  id             Int         @id @default(autoincrement())
-  start_datetime DateTime
-  end_datetime   DateTime?
-  lor_code       String
-  value          Float
-  type_bicycle   String
-  created_at     DateTime    @default(now())
-  updated_at     DateTime    @updatedAt
-  berlin_area    BerlinArea? @relation(name: "BerlinAreaToPoliceReport", fields: [lor_code], references: [lor_code])
+  id               Int         @id @default(autoincrement())
+  created_datetime DateTime
+  start_datetime   DateTime
+  end_datetime     DateTime
+  lor_code         String
+  value            Float
+  type_bicycle     String
+  created_at       DateTime    @default(now())
+  updated_at       DateTime    @updatedAt
+  berlin_area      BerlinArea? @relation(name: "BerlinAreaToPoliceReport", fields: [lor_code], references: [lor_code])
 }
 
 model BerlinArea {
