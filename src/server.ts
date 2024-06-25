@@ -5,12 +5,9 @@ import prisma from './middlewares/prisma';
 import bicycleRoutes from './routes/bicycle.routes';
 import userReportRoutes from './routes/userReport.routes';
 import photoRoutes from './routes/photo.routes';
-<<<<<<< HEAD
 import authRoutes from './routes/auth.routes';
 import userRoutes from './routes/user.routes';
-=======
 import dataRoutes from './routes/data.routes';
->>>>>>> d217aa3 (adding data route and police-report data analysis)
 
 dotenv.config();
 
@@ -19,7 +16,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 // CORS configuration options
-// const allowedOrigins = ['http://localhost:4200', 'http://localhost:3000'];
+// const allowedOrigins = ['http://localhost:5175', 'http://localhost:3000'];
 // const corsOptions: CorsOptions = {
 //   origin: (origin, callback) => {
 //     // Allow requests with no origin (like Postman)
@@ -36,7 +33,7 @@ const port = process.env.PORT || 3000;
 // };
 
 const corsOptions: CorsOptions = {
-  origin: true,
+  origin: true, // Allow all origins
   optionsSuccessStatus: 200, // For legacy browser support
 };
 
