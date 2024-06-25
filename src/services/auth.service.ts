@@ -9,7 +9,8 @@ const JWT_SECRET = process.env.JWT_SECRET!;
 export const registerUser = async (
   email: string,
   password: string,
-  first_name?: string
+  first_name?: string,
+  last_name?: string
 ) => {
   const hashedPassword = await bcrypt.hash(password, 10);
 
@@ -19,6 +20,7 @@ export const registerUser = async (
         email,
         password: hashedPassword,
         first_name,
+        last_name,
       },
     });
     return user;

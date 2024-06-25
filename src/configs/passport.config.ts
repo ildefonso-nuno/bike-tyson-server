@@ -13,7 +13,9 @@ passport.use(
     async (accessToken, refreshToken, profile, done) => {
       const google_id = profile.id;
       const email = profile.emails?.[0].value;
-      const first_name = profile.displayName;
+      const first_name = profile.name?.givenName;
+      const last_name = profile.name?.familyName;
+      const profile_pic_url = profile.photos?.[0].value;
 
       let user = await prisma.user.findUnique({
         where: { google_id },
@@ -30,6 +32,8 @@ passport.use(
               google_id,
               email,
               first_name,
+              last_name,
+              profile_pic_url,
             },
           });
         } else {

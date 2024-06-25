@@ -3,10 +3,10 @@ import { Request, Response } from 'express';
 import { registerUser, loginUser } from '../services/auth.service';
 
 export const registerController = async (req: Request, res: Response) => {
-  const { email, password, name } = req.body;
+  const { email, password, first_name, last_name } = req.body;
 
   try {
-    const user = await registerUser(email, password, name);
+    const user = await registerUser(email, password, first_name, last_name);
     res.json(user);
   } catch (error) {
     res.status(400).json({ error: error });
