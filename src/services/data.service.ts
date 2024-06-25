@@ -48,8 +48,7 @@ export const getPoliceReportAnalytics = async (startDatetime: Date) => {
   const lorData = await fetchLORData(startDatetime);
   const lorStats = calculateLORStats(lorData, totalThefts);
 
-  const { min, max } = determineMinMaxTheftPercentage(lorStats);
-  const lorStatsWithColorLevel = addColorLevelsToLORStats(lorStats, min, max);
+  const lorStatsWithColorLevel = addColorLevelsToLORStats(lorStats);
 
   return {
     total_thefts: totalThefts,
