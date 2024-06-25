@@ -75,11 +75,8 @@ export function normalizeColorLevel(
   return ((value - min) / (max - min)) * 10;
 }
 
-export function addColorLevelsToLORStats(
-  lorStats: Record<string, any>,
-  min: number,
-  max: number
-) {
+export function addColorLevelsToLORStats(lorStats: Record<string, any>) {
+  const { min, max } = determineMinMaxTheftPercentage(lorStats);
   return Object.keys(lorStats).reduce((acc, lor_code) => {
     acc[lor_code] = {
       ...lorStats[lor_code],
