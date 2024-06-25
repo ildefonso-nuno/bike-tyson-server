@@ -5,9 +5,9 @@ import prisma from './middlewares/prisma';
 import bicycleRoutes from './routes/bicycle.routes';
 import userReportRoutes from './routes/userReport.routes';
 import photoRoutes from './routes/photo.routes';
+import dataRoutes from './routes/data.routes';
 import authRoutes from './routes/auth.routes';
 import userRoutes from './routes/user.routes';
-import dataRoutes from './routes/data.routes';
 
 dotenv.config();
 
