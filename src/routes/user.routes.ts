@@ -1,9 +1,13 @@
 import { Router } from 'express';
-import { getProfileController } from '../controllers/user.controller';
+import {
+  getUserController,
+  updateUserController,
+} from '../controllers/user.controller';
 import { authenticateJWT } from '../middlewares/auth.middleware';
 
 const router = Router();
 
-router.get('/profile', authenticateJWT, getProfileController);
+router.get('/', authenticateJWT, getUserController);
+router.put('/', authenticateJWT, updateUserController);
 
 export default router;

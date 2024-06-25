@@ -21,3 +21,18 @@ export const getUserById = async (id: number) => {
 
   return user;
 };
+
+export const updateUser = async (id: number, data: any) => {
+  try {
+    const updatedUser = await prisma.user.update({
+      where: { id },
+      data: {
+        ...data,
+        updated_at: new Date(),
+      },
+    });
+    return updatedUser;
+  } catch (error) {
+    throw new Error('Error updating user');
+  }
+};
