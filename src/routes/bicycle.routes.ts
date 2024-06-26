@@ -1,6 +1,7 @@
 import { Router } from 'express';
 import {
   getAllBicyclesController,
+  getAllBicyclesByUserIdController,
   createBicycleController,
   updateBicycleController,
   deleteBicycleController,
@@ -13,6 +14,9 @@ router.post('/', createBicycleController);
 
 // Get all bicycles
 router.get('/', getAllBicyclesController);
+
+// Get all bicycles by user id
+router.get('/:user_id', getAllBicyclesByUserIdController);
 
 // Update a bicycle
 router.put('/', updateBicycleController);
