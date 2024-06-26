@@ -2,10 +2,13 @@ import dotenv from 'dotenv';
 import express from 'express';
 import cors, { CorsOptions } from 'cors';
 import prisma from './middlewares/prisma';
+import passport from './configs/passport.config';
 import bicycleRoutes from './routes/bicycle.routes';
 import userReportRoutes from './routes/userReport.routes';
 import photoRoutes from './routes/photo.routes';
 import dataRoutes from './routes/data.routes';
+import authRoutes from './routes/auth.routes';
+import userRoutes from './routes/user.routes';
 
 dotenv.config();
 
@@ -37,11 +40,16 @@ const corsOptions: CorsOptions = {
 
 // Middlewares
 app.use(express.json());
+app.use(passport.initialize());
 app.use(cors(corsOptions));
 
 // Routes
+app.use('/auth', authRoutes);
+app.use('/api/user', userRoutes);
+
 app.use('/api/bicycles', bicycleRoutes);
 app.use('/api/user-reports', userReportRoutes);
+
 app.use('/api/photos', photoRoutes);
 
 app.use('/api/data', dataRoutes);
