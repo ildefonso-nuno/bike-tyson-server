@@ -1,6 +1,7 @@
 import { Request, Response } from 'express';
 import {
   getAllBicycles,
+  getAllBicyclesByUserId,
   createBicycle,
   updateBicycle,
   deleteBicycle,
@@ -27,6 +28,19 @@ export const getAllBicyclesController = async (
     res.status(200).json(bicycles);
   } catch (error) {
     res.status(500).json({ error: 'Failed to fetch bicycles' });
+  }
+};
+
+export const getAllBicyclesByUserIdController = async (
+    req: Request,
+    res: Response
+): Promise<void> => {
+  try {
+    const { id } = req.params;
+    const bicycles = await getAllBicyclesByUserId(Number(id));
+    res.status(200).json(bicycles);
+  } catch (error) {
+    res.status(500).json({ error: 'Failed to fetch bicycles by user id' });
   }
 };
 
