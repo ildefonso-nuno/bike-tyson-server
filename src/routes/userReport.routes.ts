@@ -21,10 +21,10 @@ router.get('/', getAllUserReportsController);
 router.get('/:id', getUserReportByIdController);
 
 // Get all user reports by user id
-router.get('/:user_id', getUserReportByUserIdController);
+router.get('/user/:userId', getUserReportByUserIdController);
 
 // Get all user reports by date for a report type, either last stolen or last created
-router.get('/last-reports', getUserReportsByDateController);
+router.get('/last-reports/:type/:date', getUserReportsByDateController);
 
 // Update a user report
 router.put('/', updateUserReportController);

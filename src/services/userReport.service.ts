@@ -24,37 +24,43 @@ export const getAllUserReports = async (): Promise<UserReport[]> => {
   }
 };
 
-export const getUserReportById = async (id: number): Promise<UserReport | null> => {
+export const getUserReportById = async (
+  id: number
+): Promise<UserReport | null> => {
   return prisma.userReport.findUnique({
-    where: {id}
+    where: { id },
   });
 };
 
-export const getUserReportByUserId = async (user_id: number): Promise<UserReport[] | null> => {
+export const getUserReportByUserId = async (
+  user_id: number
+): Promise<UserReport[] | null> => {
   return prisma.userReport.findMany({
-    where: {user_id:user_id}
+    where: { user_id: user_id },
   });
 };
 
-export const getUserReportByEndDateTime= async (end_datetime: Date): Promise<UserReport[] | null> => {
+export const getUserReportByEndDateTime = async (
+  end_datetime: Date
+): Promise<UserReport[] | null> => {
   return prisma.userReport.findMany({
-    where:
-        {
-          end_datetime: {
-            gte: end_datetime // greater than or equal to end
-          }
-        }
+    where: {
+      end_datetime: {
+        gte: end_datetime, // greater than or equal to end
+      },
+    },
   });
 };
 
-export const getUserReportByCreatedDate= async (created_at: Date): Promise<UserReport[] | null> => {
+export const getUserReportByCreatedDate = async (
+  created_at: Date
+): Promise<UserReport[] | null> => {
   return prisma.userReport.findMany({
-    where:
-        {
-          end_datetime: {
-            gte: created_at // greater than or equal to end
-          }
-        }
+    where: {
+      created_at: {
+        gte: created_at, // greater than or equal to end
+      },
+    },
   });
 };
 
