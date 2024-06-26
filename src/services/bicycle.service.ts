@@ -24,6 +24,17 @@ export const getAllBicycles = async (): Promise<Bicycle[]> => {
   }
 };
 
+export const getAllBicyclesByUserId = async (id: number): Promise<Bicycle[]> => {
+  try {
+    const bicycles = await prisma.bicycle.findMany({
+      where: {id}
+    });
+    return bicycles;
+  } catch (error) {
+    throw new Error('Error fetching bicycles');
+  }
+};
+
 export const updateBicycle = async (
   id: number,
   data: Prisma.BicycleUpdateInput
