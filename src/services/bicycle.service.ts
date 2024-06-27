@@ -24,10 +24,23 @@ export const getAllBicycles = async (): Promise<Bicycle[]> => {
   }
 };
 
-export const getAllBicyclesByUserId = async (id: number): Promise<Bicycle[]> => {
+export const getBicycleById = async (id: number): Promise<Bicycle[]> => {
   try {
     const bicycles = await prisma.bicycle.findMany({
-      where: {id}
+      where: { id },
+    });
+    return bicycles;
+  } catch (error) {
+    throw new Error('Error fetching bicycle');
+  }
+};
+
+export const getAllBicyclesByUserId = async (
+  user_id: number
+): Promise<Bicycle[]> => {
+  try {
+    const bicycles = await prisma.bicycle.findMany({
+      where: { user_id },
     });
     return bicycles;
   } catch (error) {
