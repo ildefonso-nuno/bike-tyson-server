@@ -17,7 +17,11 @@ export const createUserReport = async (
 
 export const getAllUserReports = async (): Promise<UserReport[]> => {
   try {
-    const reports = await prisma.userReport.findMany();
+    const reports = await prisma.userReport.findMany(
+        {
+          include: { bicycle: true, }
+        }
+    );
     return reports;
   } catch (error) {
     throw new Error('Error fetching reports');
@@ -29,6 +33,7 @@ export const getUserReportById = async (
 ): Promise<UserReport | null> => {
   return prisma.userReport.findUnique({
     where: { id },
+    include: { bicycle: true, }
   });
 };
 
@@ -37,6 +42,7 @@ export const getUserReportByUserId = async (
 ): Promise<UserReport[] | null> => {
   return prisma.userReport.findMany({
     where: { user_id: user_id },
+    include: { bicycle: true, }
   });
 };
 
@@ -49,6 +55,7 @@ export const getUserReportByEndDateTime = async (
         gte: end_datetime, // greater than or equal to end
       },
     },
+    include: { bicycle: true, }
   });
 };
 
@@ -61,6 +68,7 @@ export const getUserReportByCreatedDate = async (
         gte: created_at, // greater than or equal to end
       },
     },
+    include: { bicycle: true, }
   });
 };
 
