@@ -30,6 +30,13 @@ model User {
   user_reports    UserReport[]
 }
 
+model ResetCode {
+  id        Int      @id @default(autoincrement())
+  email     String
+  code      String
+  createdAt DateTime @default(now())
+}
+
 model Bicycle {
   id          Int          @id @default(autoincrement())
   user_id     Int

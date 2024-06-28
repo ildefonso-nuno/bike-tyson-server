@@ -1,9 +1,10 @@
 // src/services/authService.ts
-import { PrismaClient } from '@prisma/client';
+import prisma from '../middlewares/prisma';
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
+import crypto from 'crypto';
+import { createTransporter } from '../configs/nodemail.config';
 
-const prisma = new PrismaClient();
 const JWT_SECRET = process.env.JWT_SECRET!;
 
 export const registerUser = async (
@@ -46,4 +47,37 @@ export const loginUser = async (email: string, password: string) => {
   } else {
     throw new Error('Invalid credentials');
   }
+};
+
+export const generateResetCode = () => {
+  return crypto.randomBytes(3).toString('hex'); // Generate a 6-digit hex code
+};
+
+export const sendResetCode = async (email: string, resetCode: string) => {
+  const mailOptions = {
+    from: process.env.EMAIL,
+    to: email,
+    subject: 'Your Password Reset Code',
+    text: `Your password reset code is: ${resetCode}`,
+  };
+
+  try {
+    const transporter = await createTransporter();
+    console.log('Sending mail with options:', mailOptions);
+    const result = await transporter.sendMail(mailOptions);
+    console.log('Mail sent:', result);
+    return { success: true, message: 'Reset code sent' };
+  } catch (error) {
+    console.error('Error sending email:', error);
+    return { success: false, message: 'Failed to send reset code' };
+  }
+};
+
+export const storeResetCode = async (email: string, code: string) => {
+  await prisma.resetCode.create({
+    data: {
+      email,
+      code,
+    },
+  });
 };

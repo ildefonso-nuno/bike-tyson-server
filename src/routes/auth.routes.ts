@@ -4,6 +4,7 @@ import passport from 'passport';
 import {
   registerController,
   loginController,
+  sendResetCodeController,
   googleCallback,
   googleAuth,
 } from '../controllers/auth.controller';
@@ -12,6 +13,8 @@ const router = Router();
 
 router.post('/register', registerController);
 router.post('/login', loginController);
+router.post('/send-reset-code', sendResetCodeController);
+
 router.post('/google', googleAuth);
 router.get(
   '/google',
