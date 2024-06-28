@@ -5,12 +5,14 @@ import {
   registerController,
   loginController,
   googleCallback,
+  googleAuth,
 } from '../controllers/auth.controller';
 
 const router = Router();
 
 router.post('/register', registerController);
 router.post('/login', loginController);
+router.post('/google', googleAuth);
 router.get(
   '/google',
   passport.authenticate('google', { scope: ['profile', 'email'] })
