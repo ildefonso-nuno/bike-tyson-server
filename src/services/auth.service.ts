@@ -3,7 +3,8 @@ import prisma from '../middlewares/prisma';
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 import crypto from 'crypto';
-import { createTransporter } from '../configs/nodemail.config';
+import courier from '../configs/courier.config';
+import { addMinutes, isAfter } from 'date-fns';
 
 const JWT_SECRET = process.env.JWT_SECRET!;
 
@@ -54,30 +55,95 @@ export const generateResetCode = () => {
 };
 
 export const sendResetCode = async (email: string, resetCode: string) => {
-  const mailOptions = {
-    from: process.env.EMAIL,
-    to: email,
-    subject: 'Your Password Reset Code',
-    text: `Your password reset code is: ${resetCode}`,
+  const message = {
+    message: {
+      to: {
+        email: email,
+      },
+      content: {
+        title: 'Your Password Reset Code',
+        body: `Your password reset code is: ${resetCode}`,
+      },
+    },
   };
 
   try {
-    const transporter = await createTransporter();
-    console.log('Sending mail with options:', mailOptions);
-    const result = await transporter.sendMail(mailOptions);
-    console.log('Mail sent:', result);
-    return { success: true, message: 'Reset code sent' };
+    const result = await courier.send(message);
+    console.log('Email sent:', result);
+    return result;
   } catch (error) {
     console.error('Error sending email:', error);
-    return { success: false, message: 'Failed to send reset code' };
+    throw new Error('Error sending email');
   }
 };
 
 export const storeResetCode = async (email: string, code: string) => {
+  const expiresAt = addMinutes(new Date(), 15);
+
   await prisma.resetCode.create({
     data: {
       email,
       code,
+      expiresAt,
     },
   });
+};
+
+export const verifyResetCode = async (email: string, code: string) => {
+  const resetCode = await prisma.resetCode.findFirst({
+    where: {
+      email,
+      code,
+    },
+  });
+
+  if (!resetCode) {
+    throw new Error('Invalid reset code');
+  }
+
+  const now = new Date();
+
+  if (isAfter(now, resetCode.expiresAt)) {
+    throw new Error('Reset code has expired');
+  } else {
+    return true;
+  }
+};
+
+export const updatePassword = async (
+  email: string,
+  code: string,
+  password: string
+) => {
+  const resetCode = await prisma.resetCode.findFirst({
+    where: {
+      email,
+      code,
+    },
+  });
+
+  if (!resetCode) {
+    throw new Error('Invalid reset code');
+  }
+
+  const now = new Date();
+  if (isAfter(now, resetCode.expiresAt)) {
+    throw new Error('Reset code has expired');
+  }
+
+  // Hash the new password
+  const hashedPassword = await bcrypt.hash(password, 10);
+
+  // Update the user's password
+  await prisma.user.update({
+    where: { email },
+    data: { password: hashedPassword },
+  });
+
+  // Delete the reset code after successful password update
+  await prisma.resetCode.delete({
+    where: { id: resetCode.id },
+  });
+
+  return true;
 };

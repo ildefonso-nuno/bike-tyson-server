@@ -6,6 +6,8 @@ import {
   generateResetCode,
   storeResetCode,
   sendResetCode,
+  verifyResetCode,
+  updatePassword,
 } from '../services/auth.service';
 import {
   verifyGoogleToken,
@@ -55,10 +57,35 @@ export const sendResetCodeController = async (req: Request, res: Response) => {
 
   const result = await sendResetCode(email, resetCode);
 
-  if (result.success) {
-    res.status(200).json({ message: result.message });
+  if (result) {
+    res.status(200).json({ message: result });
   } else {
-    res.status(500).json({ message: result.message });
+    res.status(500).json({ message: result });
+  }
+};
+
+export const verifyResetCodeController = async (
+  req: Request,
+  res: Response
+) => {
+  const { email, code } = req.body;
+
+  try {
+    await verifyResetCode(email, code);
+    res.status(200).json({ message: 'Reset code is valid' });
+  } catch (error) {
+    res.status(400).json({ error: error });
+  }
+};
+
+export const updatePasswordController = async (req: Request, res: Response) => {
+  const { email, code, password } = req.body;
+
+  try {
+    await updatePassword(email, code, password);
+    res.status(200).json({ message: 'Password updated successfully' });
+  } catch (error) {
+    res.status(400).json({ message: error });
   }
 };
 
