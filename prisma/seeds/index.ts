@@ -10,7 +10,7 @@ async function main() {
   await prisma.$transaction(async () => {
     await seedUsers();
     await seedBicycles();
-    await seedBerlinAreas();
+    // await seedBerlinAreas();
     await seedUserReports();
   });
 }
