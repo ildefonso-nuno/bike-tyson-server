@@ -1,4 +1,4 @@
-import {Bicycle} from "./bicycle.model";
+import { Bicycle } from './bicycle.model';
 
 export interface UserReport {
   id: number;
@@ -11,4 +11,9 @@ export interface UserReport {
   description: string | null;
   created_at: Date;
   updated_at: Date;
+}
+
+export interface UserReportWithLatLng extends UserReport {
+  lat: number;
+  lng: number;
 }
