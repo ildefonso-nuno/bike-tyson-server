@@ -70,7 +70,7 @@ jobs:
           gcloud auth configure-docker gcr.io
           docker push gcr.io/${{ secrets.GOOGLE_CLOUD_PROJECT_ID }}/bike-tyson-server
 
-- name: Deploy to Cloud Run
+      - name: Deploy to Cloud Run
         env:
           POSTGRES_USER: ${{ secrets.POSTGRES_USER }}
           POSTGRES_PASSWORD: ${{ secrets.POSTGRES_PASSWORD }}
