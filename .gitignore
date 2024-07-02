@@ -6,6 +6,8 @@ yarn-error.log*
 
 # Environment variables
 .env
+.env-dev
+.env-prod
 
 # Docker files
 server/db/docker-compose.yml
