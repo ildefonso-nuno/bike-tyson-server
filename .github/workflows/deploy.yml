@@ -70,7 +70,21 @@ jobs:
           gcloud auth configure-docker gcr.io
           docker push gcr.io/${{ secrets.GOOGLE_CLOUD_PROJECT_ID }}/bike-tyson-server
 
-      - name: Deploy to Cloud Run
+- name: Deploy to Cloud Run
+        env:
+          POSTGRES_USER: ${{ secrets.POSTGRES_USER }}
+          POSTGRES_PASSWORD: ${{ secrets.POSTGRES_PASSWORD }}
+          POSTGRES_DB: ${{ secrets.POSTGRES_DB }}
+          POSTGRES_HOST: ${{ secrets.POSTGRES_HOST }}
+          POSTGRES_PORT: ${{ secrets.POSTGRES_PORT }}
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          JWT_SECRET: ${{ secrets.JWT_SECRET }}
+          EMAIL: ${{ secrets.EMAIL }}
+          EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
+          COURIER_API_KEY: ${{ secrets.COURIER_API_KEY }}
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          GOOGLE_REDIRECT_URI: ${{ secrets.GOOGLE_REDIRECT_URI }}
         run: |
           gcloud run deploy bike-tyson-server \
             --image gcr.io/${{ secrets.GOOGLE_CLOUD_PROJECT_ID }}/bike-tyson-server \
@@ -78,16 +92,4 @@ jobs:
             --region europe-west1 \
             --allow-unauthenticated \
             --service-account ${{ secrets.GOOGLE_SERVICE_ACCOUNT }} \
-            --set-secrets POSTGRES_USER=${{ secrets.POSTGRES_USER }}:latest \
-            --set-secrets POSTGRES_PASSWORD=${{ secrets.POSTGRES_PASSWORD }}:latest \
-            --set-secrets POSTGRES_DB=${{ secrets.POSTGRES_DB }}:latest \
-            --set-secrets POSTGRES_HOST=${{ secrets.POSTGRES_HOST }}:latest \
-            --set-secrets POSTGRES_PORT=${{ secrets.POSTGRES_PORT }}:latest \
-            --set-secrets DATABASE_URL=${{ secrets.DATABASE_URL }}:latest \
-            --set-secrets JWT_SECRET=${{ secrets.JWT_SECRET }}:latest \
-            --set-secrets EMAIL=${{ secrets.EMAIL }}:latest \
-            --set-secrets EMAIL_PASS=${{ secrets.EMAIL_PASS }}:latest \
-            --set-secrets COURIER_API_KEY=${{ secrets.COURIER_API_KEY }}:latest \
-            --set-secrets GOOGLE_CLIENT_ID=${{ secrets.GOOGLE_CLIENT_ID }}:latest \
-            --set-secrets GOOGLE_CLIENT_SECRET=${{ secrets.GOOGLE_CLIENT_SECRET }}:latest \
-            --set-secrets GOOGLE_REDIRECT_URI=${{ secrets.GOOGLE_REDIRECT_URI }}:latest
+            --set-env-vars POSTGRES_USER=${POSTGRES_USER},POSTGRES_PASSWORD=${POSTGRES_PASSWORD},POSTGRES_DB=${POSTGRES_DB},POSTGRES_HOST=${POSTGRES_HOST},POSTGRES_PORT=${POSTGRES_PORT},DATABASE_URL=${DATABASE_URL},JWT_SECRET=${JWT_SECRET},EMAIL=${EMAIL},EMAIL_PASS=${EMAIL_PASS},COURIER_API_KEY=${COURIER_API_KEY},GOOGLE_CLIENT_ID=${GOOGLE_CLIENT_ID},GOOGLE_CLIENT_SECRET=${GOOGLE_CLIENT_SECRET},GOOGLE_REDIRECT_URI=${GOOGLE_REDIRECT_URI}
