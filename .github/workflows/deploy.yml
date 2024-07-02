@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - feat-adding-git-actions
   workflow_dispatch:
     inputs:
       logLevel:
