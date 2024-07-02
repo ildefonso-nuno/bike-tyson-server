@@ -1,0 +1,94 @@
+name: Deploy to Cloud Run
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'Log level'
+        required: true
+        default: 'warning'
+        type: choice
+        options:
+          - info
+          - warning
+          - debug
+      tags:
+        description: 'Test scenario tags'
+        required: false
+        type: boolean
+      environment:
+        description: 'Environment to run tests against'
+        type: environment
+        required: true
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Verify Dockerfile exists
+        run: |
+          if [ ! -f Dockerfile ]; then echo "Dockerfile not found"; exit 1; fi
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '21'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build the application
+        run: npm run build
+
+      - name: Authenticate to Google Cloud
+        uses: google-github-actions/auth@v2.1.0
+        with:
+          credentials_json: ${{ secrets.GCP_SA_KEY }}
+
+      - name: Set up Google Cloud SDK
+        uses: google-github-actions/setup-gcloud@v2.1.0
+        with:
+          project_id: ${{ secrets.GOOGLE_CLOUD_PROJECT_ID }}
+
+      - name: Build Docker image
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: |
+          echo $DATABASE_URL
+          DOCKER_BUILDKIT=1 docker build --build-arg DATABASE_URL=$DATABASE_URL -t gcr.io/${{ secrets.GOOGLE_CLOUD_PROJECT_ID }}/bike-tyson-server .
+
+      - name: Push Docker image to Google Container Registry
+        run: |
+          gcloud auth configure-docker gcr.io
+          docker push gcr.io/${{ secrets.GOOGLE_CLOUD_PROJECT_ID }}/bike-tyson-server
+
+      - name: Deploy to Cloud Run
+        env:
+          POSTGRES_USER: ${{ secrets.POSTGRES_USER }}
+          POSTGRES_PASSWORD: ${{ secrets.POSTGRES_PASSWORD }}
+          POSTGRES_DB: ${{ secrets.POSTGRES_DB }}
+          POSTGRES_HOST: ${{ secrets.POSTGRES_HOST }}
+          POSTGRES_PORT: ${{ secrets.POSTGRES_PORT }}
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          JWT_SECRET: ${{ secrets.JWT_SECRET }}
+          EMAIL: ${{ secrets.EMAIL }}
+          EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
+          COURIER_API_KEY: ${{ secrets.COURIER_API_KEY }}
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          GOOGLE_REDIRECT_URI: ${{ secrets.GOOGLE_REDIRECT_URI }}
+        run: |
+          gcloud run deploy bike-tyson-server \
+            --image gcr.io/${{ secrets.GOOGLE_CLOUD_PROJECT_ID }}/bike-tyson-server \
+            --platform managed \
+            --region europe-west10 \
+            --allow-unauthenticated \
+            --service-account ${{ secrets.GOOGLE_SERVICE_ACCOUNT }} \
+            --set-env-vars POSTGRES_USER=${POSTGRES_USER},POSTGRES_PASSWORD=${POSTGRES_PASSWORD},POSTGRES_DB=${POSTGRES_DB},POSTGRES_HOST=${POSTGRES_HOST},POSTGRES_PORT=${POSTGRES_PORT},DATABASE_URL=${DATABASE_URL},JWT_SECRET=${JWT_SECRET},EMAIL=${EMAIL},EMAIL_PASS=${EMAIL_PASS},COURIER_API_KEY=${COURIER_API_KEY},GOOGLE_CLIENT_ID=${GOOGLE_CLIENT_ID},GOOGLE_CLIENT_SECRET=${GOOGLE_CLIENT_SECRET},GOOGLE_REDIRECT_URI=${GOOGLE_REDIRECT_URI}
