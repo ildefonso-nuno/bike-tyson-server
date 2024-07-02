@@ -19,8 +19,8 @@ export async function seedBicycles() {
       description: 'Ideal for gravel and mixed terrain.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884260.jpg?semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884260.jpg?semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 2,
@@ -37,8 +37,8 @@ export async function seedBicycles() {
       description: 'Great for off-road trails and rugged terrain.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884272.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884272.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 3,
@@ -55,8 +55,8 @@ export async function seedBicycles() {
       description: 'Designed for speed and long-distance rides.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884266.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884266.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 4,
@@ -73,8 +73,8 @@ export async function seedBicycles() {
       description: 'Perfect for urban commuting and leisurely rides.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/close-up-bicycle-details-parts_23-2150834356.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/close-up-bicycle-details-parts_23-2150834356.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 5,
@@ -91,8 +91,8 @@ export async function seedBicycles() {
       description: 'Assists with pedaling and ideal for longer distances.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834280.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834280.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 6,
@@ -109,8 +109,8 @@ export async function seedBicycles() {
       description: 'Convenient for city dwellers with limited storage space.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884254.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884254.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 7,
@@ -127,8 +127,8 @@ export async function seedBicycles() {
       description: 'Versatile for both city streets and light trails.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/bicycle-with-basket-front-is-parked-against-wall_1340-38311.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/bicycle-with-basket-front-is-parked-against-wall_1340-38311.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 8,
@@ -145,8 +145,8 @@ export async function seedBicycles() {
       description: 'Built for rough gravel roads and all-terrain exploration.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884248.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884248.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 9,
@@ -163,8 +163,8 @@ export async function seedBicycles() {
       description: 'High-performance bike for challenging mountain trails.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884252.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884252.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 10,
@@ -181,8 +181,8 @@ export async function seedBicycles() {
       description: 'Engineered for aerodynamics and competitive road racing.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/red-bike-is-parked-front-mountain-landscape_1340-38313.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/red-bike-is-parked-front-mountain-landscape_1340-38313.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 11,
@@ -196,11 +196,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Blue',
       gender: 'Male',
-      description: 'Classic design for comfortable city cruising and commuting.',
+      description:
+        'Classic design for comfortable city cruising and commuting.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884292.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884292.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 12,
@@ -217,8 +218,8 @@ export async function seedBicycles() {
       description: 'Powerful electric assistance for off-road adventures.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880319.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880319.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 13,
@@ -235,8 +236,8 @@ export async function seedBicycles() {
       description: 'Compact and portable for easy storage and transportation.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880330.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880330.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 14,
@@ -250,11 +251,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Gray',
       gender: 'Female',
-      description: 'Smooth ride for urban commutes and leisurely weekend rides.',
+      description:
+        'Smooth ride for urban commutes and leisurely weekend rides.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880323.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880323.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 15,
@@ -268,11 +270,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Black',
       gender: 'Male',
-      description: 'Versatile bike for gravel racing and long-distance adventures.',
+      description:
+        'Versatile bike for gravel racing and long-distance adventures.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834260.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834260.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 16,
@@ -289,8 +292,8 @@ export async function seedBicycles() {
       description: 'High-end performance bike for technical mountain trails.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884322.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884322.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 17,
@@ -304,11 +307,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Black',
       gender: 'Male',
-      description: 'Top-of-the-line road bike for professional racing and enthusiasts.',
+      description:
+        'Top-of-the-line road bike for professional racing and enthusiasts.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/close-up-bike-nature_23-2150814860.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/close-up-bike-nature_23-2150814860.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 18,
@@ -322,11 +326,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Pink',
       gender: 'Female',
-      description: 'Stylish and comfortable bike for city commuting and casual rides.',
+      description:
+        'Stylish and comfortable bike for city commuting and casual rides.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884260.jpg?semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884260.jpg?semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 19,
@@ -340,11 +345,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Black',
       gender: 'Male',
-      description: 'Electric fat tire bike for all-terrain exploration and commuting.',
+      description:
+        'Electric fat tire bike for all-terrain exploration and commuting.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884272.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884272.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 20,
@@ -361,8 +367,8 @@ export async function seedBicycles() {
       description: 'Compact folding bike for urban mobility and easy storage.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884266.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884266.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 21,
@@ -379,8 +385,8 @@ export async function seedBicycles() {
       description: 'Versatile bike for city streets',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/close-up-bicycle-details-parts_23-2150834356.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/close-up-bicycle-details-parts_23-2150834356.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 22,
@@ -394,11 +400,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Orange',
       gender: 'Female',
-      description: 'Affordable gravel bike for entry-level riders and adventure seekers.',
+      description:
+        'Affordable gravel bike for entry-level riders and adventure seekers.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834280.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834280.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 23,
@@ -412,11 +419,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Red',
       gender: 'Male',
-      description: 'Full-suspension mountain bike for technical descents and trail riding.',
+      description:
+        'Full-suspension mountain bike for technical descents and trail riding.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884254.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884254.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 24,
@@ -430,11 +438,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Gray',
       gender: 'Female',
-      description: 'Endurance road bike for long-distance comfort and performance.',
+      description:
+        'Endurance road bike for long-distance comfort and performance.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/bicycle-with-basket-front-is-parked-against-wall_1340-38311.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/bicycle-with-basket-front-is-parked-against-wall_1340-38311.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 25,
@@ -448,11 +457,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Black',
       gender: 'Male',
-      description: 'Comfortable city bike for leisurely rides and exploring urban areas.',
+      description:
+        'Comfortable city bike for leisurely rides and exploring urban areas.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884248.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884248.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 26,
@@ -469,8 +479,8 @@ export async function seedBicycles() {
       description: 'Powerful electric bike for commuting and long-range rides.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884252.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884252.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 27,
@@ -484,11 +494,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Black',
       gender: 'Male',
-      description: 'Premium folding bike with sleek design and compact foldability.',
+      description:
+        'Premium folding bike with sleek design and compact foldability.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/red-bike-is-parked-front-mountain-landscape_1340-38313.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/red-bike-is-parked-front-mountain-landscape_1340-38313.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 28,
@@ -505,8 +516,8 @@ export async function seedBicycles() {
       description: 'Versatile bike for city streets',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884292.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884292.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 29,
@@ -523,8 +534,8 @@ export async function seedBicycles() {
       description: 'Adventure-ready gravel bike for exploring diverse terrain.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880319.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880319.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 30,
@@ -538,11 +549,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Orange',
       gender: 'Female',
-      description: 'High-performance mountain bike for aggressive trail riding and enduro racing.',
+      description:
+        'High-performance mountain bike for aggressive trail riding and enduro racing.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880330.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880330.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 31,
@@ -556,11 +568,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Black',
       gender: 'Male',
-      description: 'Aero road bike for speed and performance in competitive racing.',
+      description:
+        'Aero road bike for speed and performance in competitive racing.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880323.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880323.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 32,
@@ -574,11 +587,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Red',
       gender: 'Female',
-      description: 'Stylish and comfortable bike for city commuting and casual rides.',
+      description:
+        'Stylish and comfortable bike for city commuting and casual rides.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834260.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834260.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 33,
@@ -595,8 +609,8 @@ export async function seedBicycles() {
       description: 'Powerful electric assistance for off-road adventures.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884322.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884322.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 34,
@@ -613,8 +627,8 @@ export async function seedBicycles() {
       description: 'Compact and portable for easy storage and transportation.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/close-up-bike-nature_23-2150814860.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/close-up-bike-nature_23-2150814860.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 35,
@@ -628,11 +642,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Black',
       gender: 'Male',
-      description: 'Smooth ride for urban commutes and leisurely weekend rides.',
+      description:
+        'Smooth ride for urban commutes and leisurely weekend rides.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884260.jpg?semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884260.jpg?semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 36,
@@ -646,11 +661,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Green',
       gender: 'Female',
-      description: 'Versatile bike for gravel racing and long-distance adventures.',
+      description:
+        'Versatile bike for gravel racing and long-distance adventures.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884272.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884272.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 37,
@@ -667,8 +683,8 @@ export async function seedBicycles() {
       description: 'High-end performance bike for technical mountain trails.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884266.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884266.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 38,
@@ -682,11 +698,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Blue',
       gender: 'Female',
-      description: 'Top-of-the-line road bike for professional racing and enthusiasts.',
+      description:
+        'Top-of-the-line road bike for professional racing and enthusiasts.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/close-up-bicycle-details-parts_23-2150834356.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/close-up-bicycle-details-parts_23-2150834356.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 39,
@@ -700,11 +717,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Red',
       gender: 'Male',
-      description: 'Stylish and comfortable bike for city commuting and casual rides.',
+      description:
+        'Stylish and comfortable bike for city commuting and casual rides.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834280.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834280.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 40,
@@ -718,11 +736,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Orange',
       gender: 'Female',
-      description: 'Electric fat tire bike for all-terrain exploration and commuting.',
+      description:
+        'Electric fat tire bike for all-terrain exploration and commuting.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884254.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884254.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 41,
@@ -739,8 +758,8 @@ export async function seedBicycles() {
       description: 'Compact folding bike for urban mobility and easy storage.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/bicycle-with-basket-front-is-parked-against-wall_1340-38311.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/bicycle-with-basket-front-is-parked-against-wall_1340-38311.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 42,
@@ -757,8 +776,8 @@ export async function seedBicycles() {
       description: 'Versatile bike for city streets',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884248.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884248.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 43,
@@ -772,11 +791,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Orange',
       gender: 'Male',
-      description: 'Affordable gravel bike for entry-level riders and adventure seekers.',
+      description:
+        'Affordable gravel bike for entry-level riders and adventure seekers.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884252.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884252.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 44,
@@ -790,11 +810,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Blue',
       gender: 'Female',
-      description: 'Full-suspension mountain bike for technical descents and trail riding.',
+      description:
+        'Full-suspension mountain bike for technical descents and trail riding.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/red-bike-is-parked-front-mountain-landscape_1340-38313.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/red-bike-is-parked-front-mountain-landscape_1340-38313.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 45,
@@ -808,11 +829,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Green',
       gender: 'Male',
-      description: 'Endurance road bike for long-distance comfort and performance.',
+      description:
+        'Endurance road bike for long-distance comfort and performance.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884292.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884292.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 46,
@@ -826,11 +848,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Purple',
       gender: 'Female',
-      description: 'Comfortable city bike for leisurely rides and exploring urban areas.',
+      description:
+        'Comfortable city bike for leisurely rides and exploring urban areas.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880319.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880319.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 47,
@@ -847,8 +870,8 @@ export async function seedBicycles() {
       description: 'Powerful electric bike for commuting and long-range rides.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880330.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880330.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 48,
@@ -862,11 +885,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Gray',
       gender: 'Female',
-      description: 'Premium folding bike with sleek design and compact foldability.',
+      description:
+        'Premium folding bike with sleek design and compact foldability.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880323.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880323.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 49,
@@ -883,8 +907,8 @@ export async function seedBicycles() {
       description: 'Versatile bike for city streets',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834260.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834260.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 50,
@@ -901,8 +925,8 @@ export async function seedBicycles() {
       description: 'Adventure-ready gravel bike for exploring diverse terrain.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884322.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884322.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 51,
@@ -916,11 +940,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Blue',
       gender: 'Male',
-      description: 'High-performance mountain bike for aggressive trail riding and enduro racing.',
+      description:
+        'High-performance mountain bike for aggressive trail riding and enduro racing.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/close-up-bike-nature_23-2150814860.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/close-up-bike-nature_23-2150814860.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 52,
@@ -934,11 +959,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Orange',
       gender: 'Female',
-      description: 'Aero road bike for speed and performance in competitive racing.',
+      description:
+        'Aero road bike for speed and performance in competitive racing.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884260.jpg?semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884260.jpg?semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 53,
@@ -952,11 +978,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Green',
       gender: 'Male',
-      description: 'Stylish and comfortable bike for city commuting and casual rides.',
+      description:
+        'Stylish and comfortable bike for city commuting and casual rides.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884272.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884272.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 54,
@@ -973,8 +1000,8 @@ export async function seedBicycles() {
       description: 'Powerful electric assistance for off-road adventures.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884266.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884266.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 55,
@@ -991,8 +1018,8 @@ export async function seedBicycles() {
       description: 'Compact and portable for easy storage and transportation.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/close-up-bicycle-details-parts_23-2150834356.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/close-up-bicycle-details-parts_23-2150834356.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 56,
@@ -1006,11 +1033,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'White',
       gender: 'Female',
-      description: 'Smooth ride for urban commutes and leisurely weekend rides.',
+      description:
+        'Smooth ride for urban commutes and leisurely weekend rides.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834280.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834280.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 57,
@@ -1024,11 +1052,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Gray',
       gender: 'Male',
-      description: 'Versatile bike for gravel racing and long-distance adventures.',
+      description:
+        'Versatile bike for gravel racing and long-distance adventures.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884254.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884254.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 58,
@@ -1045,8 +1074,8 @@ export async function seedBicycles() {
       description: 'High-end performance bike for technical mountain trails.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/bicycle-with-basket-front-is-parked-against-wall_1340-38311.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/bicycle-with-basket-front-is-parked-against-wall_1340-38311.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 59,
@@ -1060,11 +1089,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Green',
       gender: 'Male',
-      description: 'Top-of-the-line road bike for professional racing and enthusiasts.',
+      description:
+        'Top-of-the-line road bike for professional racing and enthusiasts.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884248.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884248.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 60,
@@ -1078,11 +1108,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Blue',
       gender: 'Female',
-      description: 'Stylish and comfortable bike for city commuting and casual rides.',
+      description:
+        'Stylish and comfortable bike for city commuting and casual rides.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884252.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884252.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 61,
@@ -1096,11 +1127,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Orange',
       gender: 'Male',
-      description: 'Electric fat tire bike for all-terrain exploration and commuting.',
+      description:
+        'Electric fat tire bike for all-terrain exploration and commuting.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/red-bike-is-parked-front-mountain-landscape_1340-38313.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/red-bike-is-parked-front-mountain-landscape_1340-38313.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 62,
@@ -1117,8 +1149,8 @@ export async function seedBicycles() {
       description: 'Compact folding bike for urban mobility and easy storage.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884292.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884292.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 63,
@@ -1135,8 +1167,8 @@ export async function seedBicycles() {
       description: 'Versatile bike for city streets',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880319.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880319.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 64,
@@ -1150,11 +1182,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Green',
       gender: 'Female',
-      description: 'Affordable gravel bike for entry-level riders and adventure seekers.',
+      description:
+        'Affordable gravel bike for entry-level riders and adventure seekers.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880330.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880330.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 65,
@@ -1168,11 +1201,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Purple',
       gender: 'Male',
-      description: 'Full-suspension mountain bike for technical descents and trail riding.',
+      description:
+        'Full-suspension mountain bike for technical descents and trail riding.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880323.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880323.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 66,
@@ -1186,11 +1220,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Black',
       gender: 'Female',
-      description: 'Endurance road bike for long-distance comfort and performance.',
+      description:
+        'Endurance road bike for long-distance comfort and performance.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834260.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834260.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 67,
@@ -1204,11 +1239,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Gray',
       gender: 'Male',
-      description: 'Comfortable city bike for leisurely rides and exploring urban areas.',
+      description:
+        'Comfortable city bike for leisurely rides and exploring urban areas.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884322.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884322.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 68,
@@ -1225,8 +1261,8 @@ export async function seedBicycles() {
       description: 'Powerful electric bike for commuting and long-range rides.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/close-up-bike-nature_23-2150814860.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/close-up-bike-nature_23-2150814860.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 69,
@@ -1240,11 +1276,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Green',
       gender: 'Male',
-      description: 'Premium folding bike with sleek design and compact foldability.',
+      description:
+        'Premium folding bike with sleek design and compact foldability.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884260.jpg?semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884260.jpg?semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 70,
@@ -1261,8 +1298,8 @@ export async function seedBicycles() {
       description: 'Versatile bike for city streets',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884272.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884272.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 71,
@@ -1279,8 +1316,8 @@ export async function seedBicycles() {
       description: 'Adventure-ready gravel bike for exploring diverse terrain.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884266.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884266.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 72,
@@ -1294,11 +1331,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Green',
       gender: 'Female',
-      description: 'High-performance mountain bike for aggressive trail riding and enduro racing.',
+      description:
+        'High-performance mountain bike for aggressive trail riding and enduro racing.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/close-up-bicycle-details-parts_23-2150834356.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/close-up-bicycle-details-parts_23-2150834356.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 73,
@@ -1312,11 +1350,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Red',
       gender: 'Male',
-      description: 'Aero road bike for speed and performance in competitive racing.',
+      description:
+        'Aero road bike for speed and performance in competitive racing.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834280.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834280.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 74,
@@ -1330,11 +1369,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Gray',
       gender: 'Female',
-      description: 'Stylish and comfortable bike for city commuting and casual rides.',
+      description:
+        'Stylish and comfortable bike for city commuting and casual rides.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884254.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884254.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 75,
@@ -1351,8 +1391,8 @@ export async function seedBicycles() {
       description: 'Powerful electric assistance for off-road adventures.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/bicycle-with-basket-front-is-parked-against-wall_1340-38311.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/bicycle-with-basket-front-is-parked-against-wall_1340-38311.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 76,
@@ -1369,8 +1409,8 @@ export async function seedBicycles() {
       description: 'Compact and portable for easy storage and transportation.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884248.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884248.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 77,
@@ -1384,11 +1424,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Teal',
       gender: 'Male',
-      description: 'Smooth ride for urban commutes and leisurely weekend rides.',
+      description:
+        'Smooth ride for urban commutes and leisurely weekend rides.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884252.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884252.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 78,
@@ -1402,11 +1443,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Black',
       gender: 'Female',
-      description: 'Versatile bike for gravel racing and long-distance adventures.',
+      description:
+        'Versatile bike for gravel racing and long-distance adventures.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/red-bike-is-parked-front-mountain-landscape_1340-38313.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/red-bike-is-parked-front-mountain-landscape_1340-38313.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 79,
@@ -1423,8 +1465,8 @@ export async function seedBicycles() {
       description: 'High-end performance bike for technical mountain trails.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884292.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884292.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 80,
@@ -1438,11 +1480,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Green',
       gender: 'Female',
-      description: 'Top-of-the-line road bike for professional racing and enthusiasts.',
+      description:
+        'Top-of-the-line road bike for professional racing and enthusiasts.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880319.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880319.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 81,
@@ -1456,11 +1499,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Black',
       gender: 'Male',
-      description: 'Stylish and comfortable bike for city commuting and casual rides.',
+      description:
+        'Stylish and comfortable bike for city commuting and casual rides.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880330.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880330.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 82,
@@ -1474,11 +1518,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Blue',
       gender: 'Female',
-      description: 'Electric fat tire bike for all-terrain exploration and commuting.',
+      description:
+        'Electric fat tire bike for all-terrain exploration and commuting.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880323.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880323.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 83,
@@ -1495,8 +1540,8 @@ export async function seedBicycles() {
       description: 'Compact folding bike for urban mobility and easy storage.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834260.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834260.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 84,
@@ -1513,8 +1558,8 @@ export async function seedBicycles() {
       description: 'Versatile bike for city streets',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884322.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884322.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 85,
@@ -1528,11 +1573,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Gray',
       gender: 'Male',
-      description: 'Affordable gravel bike for entry-level riders and adventure seekers.',
+      description:
+        'Affordable gravel bike for entry-level riders and adventure seekers.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/close-up-bike-nature_23-2150814860.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/close-up-bike-nature_23-2150814860.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 86,
@@ -1546,11 +1592,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Black',
       gender: 'Female',
-      description: 'Full-suspension mountain bike for technical descents and trail riding.',
+      description:
+        'Full-suspension mountain bike for technical descents and trail riding.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884260.jpg?semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884260.jpg?semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 87,
@@ -1564,11 +1611,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Blue',
       gender: 'Male',
-      description: 'Endurance road bike for long-distance comfort and performance.',
+      description:
+        'Endurance road bike for long-distance comfort and performance.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884272.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884272.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 88,
@@ -1582,11 +1630,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Green',
       gender: 'Female',
-      description: 'Comfortable city bike for leisurely rides and exploring urban areas.',
+      description:
+        'Comfortable city bike for leisurely rides and exploring urban areas.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884266.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884266.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 89,
@@ -1603,8 +1652,8 @@ export async function seedBicycles() {
       description: 'Powerful electric bike for commuting and long-range rides.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/close-up-bicycle-details-parts_23-2150834356.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/close-up-bicycle-details-parts_23-2150834356.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 90,
@@ -1618,11 +1667,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Orange',
       gender: 'Female',
-      description: 'Premium folding bike with sleek design and compact foldability.',
+      description:
+        'Premium folding bike with sleek design and compact foldability.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834280.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834280.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 91,
@@ -1639,8 +1689,8 @@ export async function seedBicycles() {
       description: 'Versatile bike for city streets',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884254.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884254.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 92,
@@ -1657,8 +1707,8 @@ export async function seedBicycles() {
       description: 'Adventure-ready gravel bike for exploring diverse terrain.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/bicycle-with-basket-front-is-parked-against-wall_1340-38311.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/bicycle-with-basket-front-is-parked-against-wall_1340-38311.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 93,
@@ -1675,8 +1725,8 @@ export async function seedBicycles() {
       description: 'High-performance mountain bike for aggressive trail',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884248.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884248.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 94,
@@ -1690,11 +1740,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Gray',
       gender: 'Male',
-      description: 'Affordable gravel bike for entry-level riders and adventure seekers.',
+      description:
+        'Affordable gravel bike for entry-level riders and adventure seekers.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884252.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884252.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 95,
@@ -1708,11 +1759,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Black',
       gender: 'Female',
-      description: 'Full-suspension mountain bike for technical descents and trail riding.',
+      description:
+        'Full-suspension mountain bike for technical descents and trail riding.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/red-bike-is-parked-front-mountain-landscape_1340-38313.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/red-bike-is-parked-front-mountain-landscape_1340-38313.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 96,
@@ -1726,11 +1778,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Blue',
       gender: 'Male',
-      description: 'Endurance road bike for long-distance comfort and performance.',
+      description:
+        'Endurance road bike for long-distance comfort and performance.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884292.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884292.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 97,
@@ -1744,11 +1797,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Green',
       gender: 'Female',
-      description: 'Comfortable city bike for leisurely rides and exploring urban areas.',
+      description:
+        'Comfortable city bike for leisurely rides and exploring urban areas.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880319.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880319.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 98,
@@ -1765,8 +1819,8 @@ export async function seedBicycles() {
       description: 'Powerful electric bike for commuting and long-range rides.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880330.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880330.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 99,
@@ -1780,11 +1834,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Orange',
       gender: 'Female',
-      description: 'Premium folding bike with sleek design and compact foldability.',
+      description:
+        'Premium folding bike with sleek design and compact foldability.',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880323.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880323.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 100,
@@ -1801,27 +1856,27 @@ export async function seedBicycles() {
       description: 'Versatile bike for city streets',
       owner: true,
       photos_url: [
-        'https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834260.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
-      ]
+        'https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834260.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
-{
-  id: 101,
-  user_id: 27,
-  name: 'Gravel Bike',
-  brand: 'Specialized',
-  model: 'Diverge Base E5',
-  type: 'Gravel',
-  value: 1199.99,
-  frame_num: 'SPECIALIZED85210115',
-  frame_size: 'F',
-  colour: 'Purple',
-  gender: 'Female',
-  description: 'Adventure-ready gravel bike for exploring diverse terrain.',
-  owner: true,
-  photos_url: [
-    '{https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884322.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-  ]
-},
+    {
+      id: 101,
+      user_id: 27,
+      name: 'Gravel Bike',
+      brand: 'Specialized',
+      model: 'Diverge Base E5',
+      type: 'Gravel',
+      value: 1199.99,
+      frame_num: 'SPECIALIZED85210115',
+      frame_size: 'F',
+      colour: 'Purple',
+      gender: 'Female',
+      description: 'Adventure-ready gravel bike for exploring diverse terrain.',
+      owner: true,
+      photos_url: [
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884322.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
+    },
     {
       id: 102,
       user_id: 14,
@@ -1837,8 +1892,8 @@ export async function seedBicycles() {
       description: 'High-performance mountain bike for aggressive trail',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/close-up-bike-nature_23-2150814860.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/close-up-bike-nature_23-2150814860.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 103,
@@ -1852,11 +1907,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Gray',
       gender: 'Female',
-      description: 'Smooth ride for urban commutes and leisurely weekend rides.',
+      description:
+        'Smooth ride for urban commutes and leisurely weekend rides.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884260.jpg?semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884260.jpg?semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 104,
@@ -1870,11 +1926,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Black',
       gender: 'Male',
-      description: 'Versatile bike for gravel racing and long-distance adventures.',
+      description:
+        'Versatile bike for gravel racing and long-distance adventures.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884272.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884272.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 105,
@@ -1891,8 +1948,8 @@ export async function seedBicycles() {
       description: 'High-end performance bike for technical mountain trails.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884266.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884266.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 106,
@@ -1906,11 +1963,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Black',
       gender: 'Male',
-      description: 'Top-of-the-line road bike for professional racing and enthusiasts.',
+      description:
+        'Top-of-the-line road bike for professional racing and enthusiasts.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/close-up-bicycle-details-parts_23-2150834356.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/close-up-bicycle-details-parts_23-2150834356.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 107,
@@ -1924,11 +1982,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Pink',
       gender: 'Female',
-      description: 'Stylish and comfortable bike for city commuting and casual rides.',
+      description:
+        'Stylish and comfortable bike for city commuting and casual rides.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834280.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834280.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 108,
@@ -1942,11 +2001,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Black',
       gender: 'Male',
-      description: 'Electric fat tire bike for all-terrain exploration and commuting.',
+      description:
+        'Electric fat tire bike for all-terrain exploration and commuting.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884254.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884254.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 109,
@@ -1963,8 +2023,8 @@ export async function seedBicycles() {
       description: 'Compact folding bike for urban mobility and easy storage.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/bicycle-with-basket-front-is-parked-against-wall_1340-38311.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/bicycle-with-basket-front-is-parked-against-wall_1340-38311.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 110,
@@ -1981,8 +2041,8 @@ export async function seedBicycles() {
       description: 'Versatile bike for city streets',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884248.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884248.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 111,
@@ -1996,11 +2056,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Orange',
       gender: 'Female',
-      description: 'Affordable gravel bike for entry-level riders and adventure seekers.',
+      description:
+        'Affordable gravel bike for entry-level riders and adventure seekers.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884252.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884252.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 112,
@@ -2014,11 +2075,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Red',
       gender: 'Male',
-      description: 'Full-suspension mountain bike for technical descents and trail riding.',
+      description:
+        'Full-suspension mountain bike for technical descents and trail riding.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/red-bike-is-parked-front-mountain-landscape_1340-38313.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/red-bike-is-parked-front-mountain-landscape_1340-38313.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 113,
@@ -2032,11 +2094,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Gray',
       gender: 'Female',
-      description: 'Endurance road bike for long-distance comfort and performance.',
+      description:
+        'Endurance road bike for long-distance comfort and performance.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884292.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884292.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 114,
@@ -2050,11 +2113,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Black',
       gender: 'Male',
-      description: 'Comfortable city bike for leisurely rides and exploring urban areas.',
+      description:
+        'Comfortable city bike for leisurely rides and exploring urban areas.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880319.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880319.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 115,
@@ -2071,8 +2135,8 @@ export async function seedBicycles() {
       description: 'Powerful electric bike for commuting and long-range rides.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880330.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880330.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 116,
@@ -2086,11 +2150,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Black',
       gender: 'Male',
-      description: 'Premium folding bike with sleek design and compact foldability.',
+      description:
+        'Premium folding bike with sleek design and compact foldability.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880323.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880323.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 117,
@@ -2107,8 +2172,8 @@ export async function seedBicycles() {
       description: 'Versatile bike for city streets',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834260.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834260.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 118,
@@ -2125,8 +2190,8 @@ export async function seedBicycles() {
       description: 'Adventure-ready gravel bike for exploring diverse terrain.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884322.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884322.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 119,
@@ -2140,11 +2205,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Orange',
       gender: 'Female',
-      description: 'High-performance mountain bike for aggressive trail riding and enduro racing.',
+      description:
+        'High-performance mountain bike for aggressive trail riding and enduro racing.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/close-up-bike-nature_23-2150814860.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/close-up-bike-nature_23-2150814860.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 120,
@@ -2158,11 +2224,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Black',
       gender: 'Male',
-      description: 'Aero road bike for speed and performance in competitive racing.',
+      description:
+        'Aero road bike for speed and performance in competitive racing.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884260.jpg?semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884260.jpg?semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 121,
@@ -2176,11 +2243,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Red',
       gender: 'Female',
-      description: 'Stylish and comfortable bike for city commuting and casual rides.',
+      description:
+        'Stylish and comfortable bike for city commuting and casual rides.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884272.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884272.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 122,
@@ -2197,8 +2265,8 @@ export async function seedBicycles() {
       description: 'Powerful electric assistance for off-road adventures.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884266.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884266.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 123,
@@ -2215,8 +2283,8 @@ export async function seedBicycles() {
       description: 'Compact and portable for easy storage and transportation.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/close-up-bicycle-details-parts_23-2150834356.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/close-up-bicycle-details-parts_23-2150834356.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 124,
@@ -2230,11 +2298,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Black',
       gender: 'Male',
-      description: 'Smooth ride for urban commutes and leisurely weekend rides.',
+      description:
+        'Smooth ride for urban commutes and leisurely weekend rides.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834280.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834280.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 125,
@@ -2248,11 +2317,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Green',
       gender: 'Female',
-      description: 'Versatile bike for gravel racing and long-distance adventures.',
+      description:
+        'Versatile bike for gravel racing and long-distance adventures.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884254.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884254.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 126,
@@ -2269,8 +2339,8 @@ export async function seedBicycles() {
       description: 'High-end performance bike for technical mountain trails.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/bicycle-with-basket-front-is-parked-against-wall_1340-38311.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/bicycle-with-basket-front-is-parked-against-wall_1340-38311.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 127,
@@ -2284,11 +2354,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Blue',
       gender: 'Female',
-      description: 'Top-of-the-line road bike for professional racing and enthusiasts.',
+      description:
+        'Top-of-the-line road bike for professional racing and enthusiasts.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884248.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884248.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 128,
@@ -2302,11 +2373,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Red',
       gender: 'Male',
-      description: 'Stylish and comfortable bike for city commuting and casual rides.',
+      description:
+        'Stylish and comfortable bike for city commuting and casual rides.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884252.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884252.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 129,
@@ -2320,11 +2392,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Orange',
       gender: 'Female',
-      description: 'Electric fat tire bike for all-terrain exploration and commuting.',
+      description:
+        'Electric fat tire bike for all-terrain exploration and commuting.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/red-bike-is-parked-front-mountain-landscape_1340-38313.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/red-bike-is-parked-front-mountain-landscape_1340-38313.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 130,
@@ -2341,8 +2414,8 @@ export async function seedBicycles() {
       description: 'Compact folding bike for urban mobility and easy storage.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884292.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884292.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 131,
@@ -2359,8 +2432,8 @@ export async function seedBicycles() {
       description: 'Versatile bike for city streets',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880319.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880319.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 132,
@@ -2374,11 +2447,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Orange',
       gender: 'Male',
-      description: 'Affordable gravel bike for entry-level riders and adventure seekers.',
+      description:
+        'Affordable gravel bike for entry-level riders and adventure seekers.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880330.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880330.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 133,
@@ -2392,11 +2466,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Blue',
       gender: 'Female',
-      description: 'Full-suspension mountain bike for technical descents and trail riding.',
+      description:
+        'Full-suspension mountain bike for technical descents and trail riding.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880323.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880323.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 134,
@@ -2410,11 +2485,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Green',
       gender: 'Male',
-      description: 'Endurance road bike for long-distance comfort and performance.',
+      description:
+        'Endurance road bike for long-distance comfort and performance.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834260.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834260.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 135,
@@ -2428,11 +2504,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Purple',
       gender: 'Female',
-      description: 'Comfortable city bike for leisurely rides and exploring urban areas.',
+      description:
+        'Comfortable city bike for leisurely rides and exploring urban areas.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884322.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884322.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 136,
@@ -2449,8 +2526,8 @@ export async function seedBicycles() {
       description: 'Powerful electric bike for commuting and long-range rides.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/close-up-bike-nature_23-2150814860.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/close-up-bike-nature_23-2150814860.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 137,
@@ -2464,11 +2541,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Gray',
       gender: 'Female',
-      description: 'Premium folding bike with sleek design and compact foldability.',
+      description:
+        'Premium folding bike with sleek design and compact foldability.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884260.jpg?semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884260.jpg?semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 138,
@@ -2485,8 +2563,8 @@ export async function seedBicycles() {
       description: 'Versatile bike for city streets',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884272.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884272.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 139,
@@ -2503,8 +2581,8 @@ export async function seedBicycles() {
       description: 'Adventure-ready gravel bike for exploring diverse terrain.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884266.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884266.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 140,
@@ -2518,11 +2596,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Blue',
       gender: 'Male',
-      description: 'High-performance mountain bike for aggressive trail riding and enduro racing.',
+      description:
+        'High-performance mountain bike for aggressive trail riding and enduro racing.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/close-up-bicycle-details-parts_23-2150834356.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/close-up-bicycle-details-parts_23-2150834356.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 141,
@@ -2536,11 +2615,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Orange',
       gender: 'Female',
-      description: 'Aero road bike for speed and performance in competitive racing.',
+      description:
+        'Aero road bike for speed and performance in competitive racing.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834280.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834280.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 142,
@@ -2554,11 +2634,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Green',
       gender: 'Male',
-      description: 'Stylish and comfortable bike for city commuting and casual rides.',
+      description:
+        'Stylish and comfortable bike for city commuting and casual rides.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884254.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884254.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 143,
@@ -2575,8 +2656,8 @@ export async function seedBicycles() {
       description: 'Powerful electric assistance for off-road adventures.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/bicycle-with-basket-front-is-parked-against-wall_1340-38311.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/bicycle-with-basket-front-is-parked-against-wall_1340-38311.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 144,
@@ -2593,8 +2674,8 @@ export async function seedBicycles() {
       description: 'Compact and portable for easy storage and transportation.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884248.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884248.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 145,
@@ -2608,11 +2689,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'White',
       gender: 'Female',
-      description: 'Smooth ride for urban commutes and leisurely weekend rides.',
+      description:
+        'Smooth ride for urban commutes and leisurely weekend rides.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884252.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884252.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 146,
@@ -2626,11 +2708,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Gray',
       gender: 'Male',
-      description: 'Versatile bike for gravel racing and long-distance adventures.',
+      description:
+        'Versatile bike for gravel racing and long-distance adventures.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/red-bike-is-parked-front-mountain-landscape_1340-38313.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/red-bike-is-parked-front-mountain-landscape_1340-38313.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 147,
@@ -2647,8 +2730,8 @@ export async function seedBicycles() {
       description: 'High-end performance bike for technical mountain trails.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884292.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884292.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 148,
@@ -2662,11 +2745,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Green',
       gender: 'Male',
-      description: 'Top-of-the-line road bike for professional racing and enthusiasts.',
+      description:
+        'Top-of-the-line road bike for professional racing and enthusiasts.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880319.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880319.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 149,
@@ -2680,11 +2764,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Blue',
       gender: 'Female',
-      description: 'Stylish and comfortable bike for city commuting and casual rides.',
+      description:
+        'Stylish and comfortable bike for city commuting and casual rides.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880330.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880330.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 150,
@@ -2698,11 +2783,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Orange',
       gender: 'Male',
-      description: 'Electric fat tire bike for all-terrain exploration and commuting.',
+      description:
+        'Electric fat tire bike for all-terrain exploration and commuting.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880323.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880323.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 151,
@@ -2719,8 +2805,8 @@ export async function seedBicycles() {
       description: 'Compact folding bike for urban mobility and easy storage.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834260.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834260.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 152,
@@ -2737,8 +2823,8 @@ export async function seedBicycles() {
       description: 'Versatile bike for city streets',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884322.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884322.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 153,
@@ -2752,11 +2838,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Green',
       gender: 'Female',
-      description: 'Affordable gravel bike for entry-level riders and adventure seekers.',
+      description:
+        'Affordable gravel bike for entry-level riders and adventure seekers.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/close-up-bike-nature_23-2150814860.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/close-up-bike-nature_23-2150814860.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 154,
@@ -2770,11 +2857,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Purple',
       gender: 'Male',
-      description: 'Full-suspension mountain bike for technical descents and trail riding.',
+      description:
+        'Full-suspension mountain bike for technical descents and trail riding.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884260.jpg?semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884260.jpg?semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 155,
@@ -2788,11 +2876,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Black',
       gender: 'Female',
-      description: 'Endurance road bike for long-distance comfort and performance.',
+      description:
+        'Endurance road bike for long-distance comfort and performance.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884272.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884272.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 156,
@@ -2806,11 +2895,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Gray',
       gender: 'Male',
-      description: 'Comfortable city bike for leisurely rides and exploring urban areas.',
+      description:
+        'Comfortable city bike for leisurely rides and exploring urban areas.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884266.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884266.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 157,
@@ -2827,8 +2917,8 @@ export async function seedBicycles() {
       description: 'Powerful electric bike for commuting and long-range rides.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/close-up-bicycle-details-parts_23-2150834356.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/close-up-bicycle-details-parts_23-2150834356.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 158,
@@ -2842,11 +2932,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Green',
       gender: 'Male',
-      description: 'Premium folding bike with sleek design and compact foldability.',
+      description:
+        'Premium folding bike with sleek design and compact foldability.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834280.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834280.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 159,
@@ -2863,8 +2954,8 @@ export async function seedBicycles() {
       description: 'Versatile bike for city streets',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884254.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884254.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 160,
@@ -2881,8 +2972,8 @@ export async function seedBicycles() {
       description: 'Adventure-ready gravel bike for exploring diverse terrain.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/bicycle-with-basket-front-is-parked-against-wall_1340-38311.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/bicycle-with-basket-front-is-parked-against-wall_1340-38311.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 161,
@@ -2896,11 +2987,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Green',
       gender: 'Female',
-      description: 'High-performance mountain bike for aggressive trail riding and enduro racing.',
+      description:
+        'High-performance mountain bike for aggressive trail riding and enduro racing.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884248.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884248.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 162,
@@ -2914,11 +3006,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Red',
       gender: 'Male',
-      description: 'Aero road bike for speed and performance in competitive racing.',
+      description:
+        'Aero road bike for speed and performance in competitive racing.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884252.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884252.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 163,
@@ -2932,11 +3025,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Gray',
       gender: 'Female',
-      description: 'Stylish and comfortable bike for city commuting and casual rides.',
+      description:
+        'Stylish and comfortable bike for city commuting and casual rides.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/red-bike-is-parked-front-mountain-landscape_1340-38313.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/red-bike-is-parked-front-mountain-landscape_1340-38313.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 164,
@@ -2953,8 +3047,8 @@ export async function seedBicycles() {
       description: 'Powerful electric assistance for off-road adventures.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884292.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884292.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 165,
@@ -2971,8 +3065,8 @@ export async function seedBicycles() {
       description: 'Compact and portable for easy storage and transportation.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880319.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880319.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 166,
@@ -2986,11 +3080,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Teal',
       gender: 'Male',
-      description: 'Smooth ride for urban commutes and leisurely weekend rides.',
+      description:
+        'Smooth ride for urban commutes and leisurely weekend rides.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880330.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880330.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 167,
@@ -3004,11 +3099,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Black',
       gender: 'Female',
-      description: 'Versatile bike for gravel racing and long-distance adventures.',
+      description:
+        'Versatile bike for gravel racing and long-distance adventures.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880323.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880323.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 168,
@@ -3025,8 +3121,8 @@ export async function seedBicycles() {
       description: 'High-end performance bike for technical mountain trails.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834260.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834260.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 169,
@@ -3040,11 +3136,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Green',
       gender: 'Female',
-      description: 'Top-of-the-line road bike for professional racing and enthusiasts.',
+      description:
+        'Top-of-the-line road bike for professional racing and enthusiasts.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884322.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884322.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 170,
@@ -3058,11 +3155,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Black',
       gender: 'Male',
-      description: 'Stylish and comfortable bike for city commuting and casual rides.',
+      description:
+        'Stylish and comfortable bike for city commuting and casual rides.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/close-up-bike-nature_23-2150814860.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/close-up-bike-nature_23-2150814860.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 171,
@@ -3076,11 +3174,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Blue',
       gender: 'Female',
-      description: 'Electric fat tire bike for all-terrain exploration and commuting.',
+      description:
+        'Electric fat tire bike for all-terrain exploration and commuting.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884260.jpg?semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884260.jpg?semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 172,
@@ -3097,8 +3196,8 @@ export async function seedBicycles() {
       description: 'Compact folding bike for urban mobility and easy storage.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884272.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884272.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 173,
@@ -3115,8 +3214,8 @@ export async function seedBicycles() {
       description: 'Versatile bike for city streets',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884266.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884266.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 174,
@@ -3130,11 +3229,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Gray',
       gender: 'Male',
-      description: 'Affordable gravel bike for entry-level riders and adventure seekers.',
+      description:
+        'Affordable gravel bike for entry-level riders and adventure seekers.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/close-up-bicycle-details-parts_23-2150834356.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/close-up-bicycle-details-parts_23-2150834356.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 175,
@@ -3148,11 +3248,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Black',
       gender: 'Female',
-      description: 'Full-suspension mountain bike for technical descents and trail riding.',
+      description:
+        'Full-suspension mountain bike for technical descents and trail riding.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834280.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834280.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 176,
@@ -3166,11 +3267,12 @@ export async function seedBicycles() {
       frame_size: 'M',
       colour: 'Blue',
       gender: 'Male',
-      description: 'Endurance road bike for long-distance comfort and performance.',
+      description:
+        'Endurance road bike for long-distance comfort and performance.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884254.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884254.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 177,
@@ -3184,11 +3286,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Green',
       gender: 'Female',
-      description: 'Comfortable city bike for leisurely rides and exploring urban areas.',
+      description:
+        'Comfortable city bike for leisurely rides and exploring urban areas.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/bicycle-with-basket-front-is-parked-against-wall_1340-38311.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/bicycle-with-basket-front-is-parked-against-wall_1340-38311.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 178,
@@ -3205,8 +3308,8 @@ export async function seedBicycles() {
       description: 'Powerful electric bike for commuting and long-range rides.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884248.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884248.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 179,
@@ -3220,11 +3323,12 @@ export async function seedBicycles() {
       frame_size: 'F',
       colour: 'Orange',
       gender: 'Female',
-      description: 'Premium folding bike with sleek design and compact foldability.',
+      description:
+        'Premium folding bike with sleek design and compact foldability.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884252.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884252.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 180,
@@ -3241,8 +3345,8 @@ export async function seedBicycles() {
       description: 'Versatile bike for city streets',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/red-bike-is-parked-front-mountain-landscape_1340-38313.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
+        'https://img.freepik.com/free-photo/red-bike-is-parked-front-mountain-landscape_1340-38313.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
     },
     {
       id: 181,
@@ -3259,20 +3363,16 @@ export async function seedBicycles() {
       description: 'Adventure-ready gravel bike for exploring diverse terrain.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884292.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
-      ]
-    }
-  ]
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884292.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen',
+      ],
+    },
+  ];
 
   for (const data of bicycleData) {
     await prisma.bicycle.upsert({
-      where: {id:data.id},
+      where: { id: data.id },
       update: {}, // No updates if the record already exists
       create: data,
     });
   }
 }
-
-
-
-

@@ -9,4 +9,4 @@ npm run db:migrate
 ## Feed the DB
 
 npm run db:seed
-npx ts-node db/scripts/policereports.ts
+npx ts-node db/scripts/import-policereports.ts

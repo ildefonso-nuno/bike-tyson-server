@@ -3,7 +3,7 @@ import { PrismaClient } from '@prisma/client';
 const prisma = new PrismaClient();
 
 export async function seedUserReports() {
-  const userData =       [
+  const userData = [
     {
       id: 1,
       user_id: 68,
@@ -12,7 +12,8 @@ export async function seedUserReports() {
       end_datetime: '2024-07-13T14:30:00Z',
       lor_code: '053007',
       gps: 'Latitude: 52.520008, Longitude: 13.404954',
-      description: 'Locked my bike outside the grocery store and when I came out, it had been stolen.'
+      description:
+        'Locked my bike outside the grocery store and when I came out, it had been stolen.',
     },
     {
       id: 2,
@@ -22,7 +23,8 @@ export async function seedUserReports() {
       end_datetime: '2024-11-19T14:30:00Z',
       lor_code: '081003',
       gps: 'Latitude: 52.516275, Longitude: 13.377704',
-      description: 'Left my bike chained to a post overnight and discovered it missing the next day.'
+      description:
+        'Left my bike chained to a post overnight and discovered it missing the next day.',
     },
     {
       id: 3,
@@ -32,7 +34,8 @@ export async function seedUserReports() {
       end_datetime: '2023-08-20T14:30:00Z',
       lor_code: '045009',
       gps: 'Latitude: 52.523405, Longitude: 13.411400',
-      description: 'Parked my bike at the train station and returned to find it had been stolen.'
+      description:
+        'Parked my bike at the train station and returned to find it had been stolen.',
     },
     {
       id: 4,
@@ -42,7 +45,8 @@ export async function seedUserReports() {
       end_datetime: '2023-01-21T14:30:00Z',
       lor_code: '044008',
       gps: 'Latitude: 52.507541, Longitude: 13.390319',
-      description: 'Secured my bike in the bike rack at work, only to find it gone at the end of the day.'
+      description:
+        'Secured my bike in the bike rack at work, only to find it gone at the end of the day.',
     },
     {
       id: 5,
@@ -52,7 +56,8 @@ export async function seedUserReports() {
       end_datetime: '2024-12-18T14:30:00Z',
       lor_code: '045011',
       gps: 'Latitude: 52.530643, Longitude: 13.385567',
-      description: 'Rode my bike to the park for a picnic and returned to find it stolen.'
+      description:
+        'Rode my bike to the park for a picnic and returned to find it stolen.',
     },
     {
       id: 6,
@@ -62,7 +67,8 @@ export async function seedUserReports() {
       end_datetime: '2023-05-25T14:30:00Z',
       lor_code: '061002',
       gps: 'Latitude: 52.496891, Longitude: 13.431947',
-      description: 'Locked my bike outside the gym and it was stolen while I was working out.'
+      description:
+        'Locked my bike outside the gym and it was stolen while I was working out.',
     },
     {
       id: 7,
@@ -72,7 +78,8 @@ export async function seedUserReports() {
       end_datetime: '2023-10-24T14:30:00Z',
       lor_code: '022002',
       gps: 'Latitude: 52.514523, Longitude: 13.350814',
-      description: 'Left my bike in the apartment building courtyard and it disappeared overnight.'
+      description:
+        'Left my bike in the apartment building courtyard and it disappeared overnight.',
     },
     {
       id: 8,
@@ -82,7 +89,8 @@ export async function seedUserReports() {
       end_datetime: '2024-04-10T14:30:00Z',
       lor_code: '043006',
       gps: 'Latitude: 52.537041, Longitude: 13.395587',
-      description: 'Parked my bike outside the cinema and it was stolen during the movie.'
+      description:
+        'Parked my bike outside the cinema and it was stolen during the movie.',
     },
     {
       id: 9,
@@ -92,7 +100,8 @@ export async function seedUserReports() {
       end_datetime: '2023-08-29T14:30:00Z',
       lor_code: '036013',
       gps: 'Latitude: 52.503484, Longitude: 13.332336',
-      description: 'Chained my bike to a fence while visiting a friend and it was stolen.'
+      description:
+        'Chained my bike to a fence while visiting a friend and it was stolen.',
     },
     {
       id: 10,
@@ -102,7 +111,8 @@ export async function seedUserReports() {
       end_datetime: '2023-06-01T14:30:00Z',
       lor_code: '076015',
       gps: 'Latitude: 52.524370, Longitude: 13.369016',
-      description: 'Locked my bike outside the museum and it was gone when I came out.'
+      description:
+        'Locked my bike outside the museum and it was gone when I came out.',
     },
     {
       id: 11,
@@ -112,7 +122,8 @@ export async function seedUserReports() {
       end_datetime: '2023-09-15T14:30:00Z',
       lor_code: '064008',
       gps: 'Latitude: 52.511547, Longitude: 13.454464',
-      description: 'Secured my bike in the bike storage room of my apartment building and it was stolen.'
+      description:
+        'Secured my bike in the bike storage room of my apartment building and it was stolen.',
     },
     {
       id: 12,
@@ -122,7 +133,8 @@ export async function seedUserReports() {
       end_datetime: '2023-10-10T14:30:00Z',
       lor_code: '033004',
       gps: 'Latitude: 52.540932, Longitude: 13.384725',
-      description: 'Rode my bike to a café for coffee and it was stolen while I was inside.'
+      description:
+        'Rode my bike to a café for coffee and it was stolen while I was inside.',
     },
     {
       id: 13,
@@ -132,7 +144,8 @@ export async function seedUserReports() {
       end_datetime: '2023-06-27T14:30:00Z',
       lor_code: '052005',
       gps: 'Latitude: 52.498620, Longitude: 13.349609',
-      description: 'Left my bike in the backyard overnight and it was stolen by morning.'
+      description:
+        'Left my bike in the backyard overnight and it was stolen by morning.',
     },
     {
       id: 14,
@@ -142,7 +155,8 @@ export async function seedUserReports() {
       end_datetime: '2023-11-01T14:30:00Z',
       lor_code: '054009',
       gps: 'Latitude: 52.532389, Longitude: 13.418331',
-      description: 'Parked my bike outside the library and it was stolen while I was studying.'
+      description:
+        'Parked my bike outside the library and it was stolen while I was studying.',
     },
     {
       id: 15,
@@ -152,7 +166,8 @@ export async function seedUserReports() {
       end_datetime: '2023-01-19T14:30:00Z',
       lor_code: '072004',
       gps: 'Latitude: 52.505893, Longitude: 13.369216',
-      description: 'Chained my bike to a tree in the park and it was stolen while I was walking around.'
+      description:
+        'Chained my bike to a tree in the park and it was stolen while I was walking around.',
     },
     {
       id: 16,
@@ -162,7 +177,8 @@ export async function seedUserReports() {
       end_datetime: '2024-10-06T14:30:00Z',
       lor_code: '062004',
       gps: 'Latitude: 52.518754, Longitude: 13.375944',
-      description: 'Locked my bike outside the office building and it was stolen during the workday.'
+      description:
+        'Locked my bike outside the office building and it was stolen during the workday.',
     },
     {
       id: 17,
@@ -172,7 +188,8 @@ export async function seedUserReports() {
       end_datetime: '2024-01-11T14:30:00Z',
       lor_code: '061002',
       gps: 'Latitude: 52.527919, Longitude: 13.402413',
-      description: 'Secured my bike in the underground parking garage and it was stolen.'
+      description:
+        'Secured my bike in the underground parking garage and it was stolen.',
     },
     {
       id: 18,
@@ -182,7 +199,8 @@ export async function seedUserReports() {
       end_datetime: '2023-10-22T14:30:00Z',
       lor_code: '062003',
       gps: 'Latitude: 52.494857, Longitude: 13.345648',
-      description: 'Rode my bike to the market and it was stolen while I was shopping.'
+      description:
+        'Rode my bike to the market and it was stolen while I was shopping.',
     },
     {
       id: 19,
@@ -192,7 +210,8 @@ export async function seedUserReports() {
       end_datetime: '2023-12-01T14:30:00Z',
       lor_code: '042002',
       gps: 'Latitude: 52.535985, Longitude: 13.394635',
-      description: 'Left my bike in the hallway of my apartment building and it was stolen.'
+      description:
+        'Left my bike in the hallway of my apartment building and it was stolen.',
     },
     {
       id: 20,
@@ -202,7 +221,8 @@ export async function seedUserReports() {
       end_datetime: '2023-10-24T14:30:00Z',
       lor_code: '045010',
       gps: 'Latitude: 52.509663, Longitude: 13.375144',
-      description: 'Parked my bike outside the restaurant and it was stolen during dinner.'
+      description:
+        'Parked my bike outside the restaurant and it was stolen during dinner.',
     },
     {
       id: 21,
@@ -212,7 +232,8 @@ export async function seedUserReports() {
       end_datetime: '2024-11-30T14:30:00Z',
       lor_code: '064008',
       gps: 'Latitude: 52.522206, Longitude: 13.409537',
-      description: 'Chained my bike to a railing at the beach and it was stolen while I was swimming.'
+      description:
+        'Chained my bike to a railing at the beach and it was stolen while I was swimming.',
     },
     {
       id: 22,
@@ -222,7 +243,8 @@ export async function seedUserReports() {
       end_datetime: '2023-07-21T14:30:00Z',
       lor_code: '064008',
       gps: 'Latitude: 52.514732, Longitude: 13.348978',
-      description: 'Locked my bike outside the concert venue and it was stolen during the show.'
+      description:
+        'Locked my bike outside the concert venue and it was stolen during the show.',
     },
     {
       id: 23,
@@ -232,7 +254,7 @@ export async function seedUserReports() {
       end_datetime: '2024-09-10T14:30:00Z',
       lor_code: '012005',
       gps: 'Latitude: 52.539366, Longitude: 13.392053',
-      description: 'Secured my bike in the backyard shed and it was stolen.'
+      description: 'Secured my bike in the backyard shed and it was stolen.',
     },
     {
       id: 24,
@@ -242,7 +264,8 @@ export async function seedUserReports() {
       end_datetime: '2023-10-14T14:30:00Z',
       lor_code: '076012',
       gps: 'Latitude: 52.501234, Longitude: 13.328998',
-      description: 'Rode my bike to the sports field and it was stolen while I was playing.'
+      description:
+        'Rode my bike to the sports field and it was stolen while I was playing.',
     },
     {
       id: 25,
@@ -252,7 +275,7 @@ export async function seedUserReports() {
       end_datetime: '2024-03-05T14:30:00Z',
       lor_code: '064008',
       gps: 'Latitude: 52.526084, Longitude: 13.366547',
-      description: 'Left my bike in the garage overnight and it was stolen.'
+      description: 'Left my bike in the garage overnight and it was stolen.',
     },
     {
       id: 26,
@@ -262,7 +285,8 @@ export async function seedUserReports() {
       end_datetime: '2024-03-23T14:30:00Z',
       lor_code: '032003',
       gps: 'Latitude: 52.513019, Longitude: 13.452393',
-      description: 'Parked my bike outside the café and it was stolen while I was chatting with friends.'
+      description:
+        'Parked my bike outside the café and it was stolen while I was chatting with friends.',
     },
     {
       id: 27,
@@ -272,7 +296,7 @@ export async function seedUserReports() {
       end_datetime: '2024-09-01T14:30:00Z',
       lor_code: '064008',
       gps: 'Latitude: 52.538726, Longitude: 13.382255',
-      description: 'Chained my bike to a signpost and it was stolen overnight.'
+      description: 'Chained my bike to a signpost and it was stolen overnight.',
     },
     {
       id: 28,
@@ -282,7 +306,8 @@ export async function seedUserReports() {
       end_datetime: '2023-12-23T14:30:00Z',
       lor_code: '023003',
       gps: 'Latitude: 52.496045, Longitude: 13.346984',
-      description: 'Locked my bike outside the office building and it was stolen before I left work.'
+      description:
+        'Locked my bike outside the office building and it was stolen before I left work.',
     },
     {
       id: 29,
@@ -292,7 +317,8 @@ export async function seedUserReports() {
       end_datetime: '2024-06-21T14:30:00Z',
       lor_code: '036012',
       gps: 'Latitude: 52.530186, Longitude: 13.415732',
-      description: 'Secured my bike in the bike cage at the train station and it was stolen.'
+      description:
+        'Secured my bike in the bike cage at the train station and it was stolen.',
     },
     {
       id: 30,
@@ -302,7 +328,8 @@ export async function seedUserReports() {
       end_datetime: '2024-05-28T14:30:00Z',
       lor_code: '022002',
       gps: 'Latitude: 52.503982, Longitude: 13.366485',
-      description: 'Rode my bike to the park for a picnic and it was stolen while I was relaxing.'
+      description:
+        'Rode my bike to the park for a picnic and it was stolen while I was relaxing.',
     },
     {
       id: 31,
@@ -312,7 +339,8 @@ export async function seedUserReports() {
       end_datetime: '2023-10-12T14:30:00Z',
       lor_code: '036011',
       gps: 'Latitude: 52.517389, Longitude: 13.373019',
-      description: 'Locked my bike outside the grocery store and when I came out, it had been stolen.'
+      description:
+        'Locked my bike outside the grocery store and when I came out, it had been stolen.',
     },
     {
       id: 32,
@@ -322,7 +350,8 @@ export async function seedUserReports() {
       end_datetime: '2024-02-04T14:30:00Z',
       lor_code: '045011',
       gps: 'Latitude: 52.525751, Longitude: 13.399276',
-      description: 'Left my bike chained to a post overnight and discovered it missing the next day.'
+      description:
+        'Left my bike chained to a post overnight and discovered it missing the next day.',
     },
     {
       id: 33,
@@ -332,7 +361,8 @@ export async function seedUserReports() {
       end_datetime: '2024-12-02T14:30:00Z',
       lor_code: '022002',
       gps: 'Latitude: 52.492768, Longitude: 13.341728',
-      description: 'Parked my bike at the train station and returned to find it had been stolen.'
+      description:
+        'Parked my bike at the train station and returned to find it had been stolen.',
     },
     {
       id: 34,
@@ -342,7 +372,8 @@ export async function seedUserReports() {
       end_datetime: '2024-10-16T14:30:00Z',
       lor_code: '014010',
       gps: 'Latitude: 52.534331, Longitude: 13.391022',
-      description: 'Secured my bike in the bike rack at work, only to find it gone at the end of the day.'
+      description:
+        'Secured my bike in the bike rack at work, only to find it gone at the end of the day.',
     },
     {
       id: 35,
@@ -352,7 +383,8 @@ export async function seedUserReports() {
       end_datetime: '2024-04-25T14:30:00Z',
       lor_code: '081002',
       gps: 'Latitude: 52.507112, Longitude: 13.372229',
-      description: 'Rode my bike to the park for a picnic and returned to find it stolen.'
+      description:
+        'Rode my bike to the park for a picnic and returned to find it stolen.',
     },
     {
       id: 36,
@@ -362,7 +394,8 @@ export async function seedUserReports() {
       end_datetime: '2023-06-29T14:30:00Z',
       lor_code: '063006',
       gps: 'Latitude: 52.520938, Longitude: 13.407759',
-      description: 'Locked my bike outside the gym and it was stolen while I was working out.'
+      description:
+        'Locked my bike outside the gym and it was stolen while I was working out.',
     },
     {
       id: 37,
@@ -372,7 +405,8 @@ export async function seedUserReports() {
       end_datetime: '2023-05-16T14:30:00Z',
       lor_code: '033005',
       gps: 'Latitude: 52.512938, Longitude: 13.347682',
-      description: 'Left my bike in the apartment building courtyard and it disappeared overnight.'
+      description:
+        'Left my bike in the apartment building courtyard and it disappeared overnight.',
     },
     {
       id: 38,
@@ -382,7 +416,8 @@ export async function seedUserReports() {
       end_datetime: '2024-05-26T14:30:00Z',
       lor_code: '045011',
       gps: 'Latitude: 52.537411, Longitude: 13.389012',
-      description: 'Parked my bike outside the cinema and it was stolen during the movie.'
+      description:
+        'Parked my bike outside the cinema and it was stolen during the movie.',
     },
     {
       id: 39,
@@ -392,7 +427,8 @@ export async function seedUserReports() {
       end_datetime: '2023-05-16T14:30:00Z',
       lor_code: '063006',
       gps: 'Latitude: 52.499478, Longitude: 13.327361',
-      description: 'Chained my bike to a fence while visiting a friend and it was stolen.'
+      description:
+        'Chained my bike to a fence while visiting a friend and it was stolen.',
     },
     {
       id: 40,
@@ -402,7 +438,8 @@ export async function seedUserReports() {
       end_datetime: '2023-03-19T14:30:00Z',
       lor_code: '033004',
       gps: 'Latitude: 52.523952, Longitude: 13.364768',
-      description: 'Locked my bike outside the museum and it was gone when I came out.'
+      description:
+        'Locked my bike outside the museum and it was gone when I came out.',
     },
     {
       id: 41,
@@ -412,7 +449,8 @@ export async function seedUserReports() {
       end_datetime: '2024-12-16T14:30:00Z',
       lor_code: '081004',
       gps: 'Latitude: 52.510831, Longitude: 13.450019',
-      description: 'Secured my bike in the bike storage room of my apartment building and it was stolen.'
+      description:
+        'Secured my bike in the bike storage room of my apartment building and it was stolen.',
     },
     {
       id: 42,
@@ -422,7 +460,8 @@ export async function seedUserReports() {
       end_datetime: '2023-10-18T14:30:00Z',
       lor_code: '035010',
       gps: 'Latitude: 52.541821, Longitude: 13.380732',
-      description: 'Rode my bike to a café for coffee and it was stolen while I was inside.'
+      description:
+        'Rode my bike to a café for coffee and it was stolen while I was inside.',
     },
     {
       id: 43,
@@ -432,7 +471,8 @@ export async function seedUserReports() {
       end_datetime: '2023-03-23T14:30:00Z',
       lor_code: '071001',
       gps: 'Latitude: 52.497270, Longitude: 13.344319',
-      description: 'Left my bike in the backyard overnight and it was stolen by morning.'
+      description:
+        'Left my bike in the backyard overnight and it was stolen by morning.',
     },
     {
       id: 44,
@@ -442,7 +482,8 @@ export async function seedUserReports() {
       end_datetime: '2024-09-21T14:30:00Z',
       lor_code: '034006',
       gps: 'Latitude: 52.531233, Longitude: 13.413128',
-      description: 'Parked my bike outside the library and it was stolen while I was studying.'
+      description:
+        'Parked my bike outside the library and it was stolen while I was studying.',
     },
     {
       id: 45,
@@ -452,7 +493,8 @@ export async function seedUserReports() {
       end_datetime: '2024-08-16T14:30:00Z',
       lor_code: '045011',
       gps: 'Latitude: 52.506274, Longitude: 13.363741',
-      description: 'Chained my bike to a tree in the park and it was stolen while I was walking around.'
+      description:
+        'Chained my bike to a tree in the park and it was stolen while I was walking around.',
     },
     {
       id: 46,
@@ -462,7 +504,8 @@ export async function seedUserReports() {
       end_datetime: '2023-10-29T14:30:00Z',
       lor_code: '036013',
       gps: 'Latitude: 52.519523, Longitude: 13.371394',
-      description: 'Locked my bike outside the office building and it was stolen during the workday.'
+      description:
+        'Locked my bike outside the office building and it was stolen during the workday.',
     },
     {
       id: 47,
@@ -472,7 +515,8 @@ export async function seedUserReports() {
       end_datetime: '2024-07-18T14:30:00Z',
       lor_code: '036014',
       gps: 'Latitude: 52.528919, Longitude: 13.399813',
-      description: 'Secured my bike in the underground parking garage and it was stolen.'
+      description:
+        'Secured my bike in the underground parking garage and it was stolen.',
     },
     {
       id: 48,
@@ -482,7 +526,8 @@ export async function seedUserReports() {
       end_datetime: '2023-10-17T14:30:00Z',
       lor_code: '042002',
       gps: 'Latitude: 52.495857, Longitude: 13.342648',
-      description: 'Rode my bike to the market and it was stolen while I was shopping.'
+      description:
+        'Rode my bike to the market and it was stolen while I was shopping.',
     },
     {
       id: 49,
@@ -492,7 +537,8 @@ export async function seedUserReports() {
       end_datetime: '2023-12-30T14:30:00Z',
       lor_code: '043004',
       gps: 'Latitude: 52.536985, Longitude: 13.393635',
-      description: 'Left my bike in the hallway of my apartment building and it was stolen.'
+      description:
+        'Left my bike in the hallway of my apartment building and it was stolen.',
     },
     {
       id: 50,
@@ -502,7 +548,8 @@ export async function seedUserReports() {
       end_datetime: '2024-06-12T14:30:00Z',
       lor_code: '072004',
       gps: 'Latitude: 52.508663, Longitude: 13.374144',
-      description: 'Parked my bike outside the restaurant and it was stolen during dinner.'
+      description:
+        'Parked my bike outside the restaurant and it was stolen during dinner.',
     },
     {
       id: 51,
@@ -512,7 +559,8 @@ export async function seedUserReports() {
       end_datetime: '2024-04-28T14:30:00Z',
       lor_code: '043006',
       gps: 'Latitude: 52.524206, Longitude: 13.408537',
-      description: 'Chained my bike to a railing at the beach and it was stolen while I was swimming.'
+      description:
+        'Chained my bike to a railing at the beach and it was stolen while I was swimming.',
     },
     {
       id: 52,
@@ -522,7 +570,8 @@ export async function seedUserReports() {
       end_datetime: '2023-06-11T14:30:00Z',
       lor_code: '034008',
       gps: 'Latitude: 52.515732, Longitude: 13.346978',
-      description: 'Locked my bike outside the concert venue and it was stolen during the show.'
+      description:
+        'Locked my bike outside the concert venue and it was stolen during the show.',
     },
     {
       id: 53,
@@ -532,7 +581,7 @@ export async function seedUserReports() {
       end_datetime: '2024-12-29T14:30:00Z',
       lor_code: '074009',
       gps: 'Latitude: 52.540366, Longitude: 13.391053',
-      description: 'Secured my bike in the backyard shed and it was stolen.'
+      description: 'Secured my bike in the backyard shed and it was stolen.',
     },
     {
       id: 54,
@@ -542,7 +591,8 @@ export async function seedUserReports() {
       end_datetime: '2024-09-08T14:30:00Z',
       lor_code: '064008',
       gps: 'Latitude: 52.502234, Longitude: 13.329998',
-      description: 'Rode my bike to the sports field and it was stolen while I was playing.'
+      description:
+        'Rode my bike to the sports field and it was stolen while I was playing.',
     },
     {
       id: 55,
@@ -552,7 +602,7 @@ export async function seedUserReports() {
       end_datetime: '2024-09-16T14:30:00Z',
       lor_code: '034006',
       gps: 'Latitude: 52.527084, Longitude: 13.365547',
-      description: 'Left my bike in the garage overnight and it was stolen.'
+      description: 'Left my bike in the garage overnight and it was stolen.',
     },
     {
       id: 56,
@@ -562,7 +612,8 @@ export async function seedUserReports() {
       end_datetime: '2024-03-11T14:30:00Z',
       lor_code: '032002',
       gps: 'Latitude: 52.514019, Longitude: 13.451393',
-      description: 'Parked my bike outside the café and it was stolen while I was chatting with friends.'
+      description:
+        'Parked my bike outside the café and it was stolen while I was chatting with friends.',
     },
     {
       id: 57,
@@ -572,7 +623,7 @@ export async function seedUserReports() {
       end_datetime: '2024-01-28T14:30:00Z',
       lor_code: '011002',
       gps: 'Latitude: 52.539726, Longitude: 13.381255',
-      description: 'Chained my bike to a signpost and it was stolen overnight.'
+      description: 'Chained my bike to a signpost and it was stolen overnight.',
     },
     {
       id: 58,
@@ -582,7 +633,8 @@ export async function seedUserReports() {
       end_datetime: '2023-11-22T14:30:00Z',
       lor_code: '064007',
       gps: 'Latitude: 52.495045, Longitude: 13.345984',
-      description: 'Locked my bike outside the office building and it was stolen before I left work.'
+      description:
+        'Locked my bike outside the office building and it was stolen before I left work.',
     },
     {
       id: 59,
@@ -592,7 +644,8 @@ export async function seedUserReports() {
       end_datetime: '2023-11-25T14:30:00Z',
       lor_code: '012006',
       gps: 'Latitude: 52.531186, Longitude: 13.414732',
-      description: 'Secured my bike in the bike cage at the train station and it was stolen.'
+      description:
+        'Secured my bike in the bike cage at the train station and it was stolen.',
     },
     {
       id: 60,
@@ -602,7 +655,8 @@ export async function seedUserReports() {
       end_datetime: '2024-02-08T14:30:00Z',
       lor_code: '021001',
       gps: 'Latitude: 52.504982, Longitude: 13.365485',
-      description: 'Rode my bike to the park for a picnic and it was stolen while I was relaxing.'
+      description:
+        'Rode my bike to the park for a picnic and it was stolen while I was relaxing.',
     },
     {
       id: 61,
@@ -612,7 +666,8 @@ export async function seedUserReports() {
       end_datetime: '2024-12-15T14:30:00Z',
       lor_code: '081002',
       gps: 'Latitude: 52.518389, Longitude: 13.372019',
-      description: 'Locked my bike outside the grocery store and when I came out, it had been stolen.'
+      description:
+        'Locked my bike outside the grocery store and when I came out, it had been stolen.',
     },
     {
       id: 62,
@@ -622,7 +677,8 @@ export async function seedUserReports() {
       end_datetime: '2024-07-06T14:30:00Z',
       lor_code: '075010',
       gps: 'Latitude: 52.526751, Longitude: 13.398276',
-      description: 'Left my bike chained to a post overnight and discovered it missing the next day.'
+      description:
+        'Left my bike chained to a post overnight and discovered it missing the next day.',
     },
     {
       id: 63,
@@ -632,7 +688,8 @@ export async function seedUserReports() {
       end_datetime: '2023-03-05T14:30:00Z',
       lor_code: '052004',
       gps: 'Latitude: 52.493768, Longitude: 13.340728',
-      description: 'Parked my bike at the train station and returned to find it had been stolen.'
+      description:
+        'Parked my bike at the train station and returned to find it had been stolen.',
     },
     {
       id: 64,
@@ -642,7 +699,8 @@ export async function seedUserReports() {
       end_datetime: '2023-08-04T14:30:00Z',
       lor_code: '012006',
       gps: 'Latitude: 52.535331, Longitude: 13.390022',
-      description: 'Secured my bike in the bike rack at work, only to find it gone at the end of the day.'
+      description:
+        'Secured my bike in the bike rack at work, only to find it gone at the end of the day.',
     },
     {
       id: 65,
@@ -652,7 +710,8 @@ export async function seedUserReports() {
       end_datetime: '2023-03-13T14:30:00Z',
       lor_code: '044008',
       gps: 'Latitude: 52.508112, Longitude: 13.371229',
-      description: 'Rode my bike to the park for a picnic and returned to find it stolen.'
+      description:
+        'Rode my bike to the park for a picnic and returned to find it stolen.',
     },
     {
       id: 66,
@@ -662,7 +721,8 @@ export async function seedUserReports() {
       end_datetime: '2024-08-05T14:30:00Z',
       lor_code: '062004',
       gps: 'Latitude: 52.521938, Longitude: 13.406759',
-      description: 'Locked my bike outside the gym and it was stolen while I was working out.'
+      description:
+        'Locked my bike outside the gym and it was stolen while I was working out.',
     },
     {
       id: 67,
@@ -672,7 +732,8 @@ export async function seedUserReports() {
       end_datetime: '2024-10-23T14:30:00Z',
       lor_code: '042003',
       gps: 'Latitude: 52.513938, Longitude: 13.346682',
-      description: 'Left my bike in the apartment building courtyard and it disappeared overnight.'
+      description:
+        'Left my bike in the apartment building courtyard and it disappeared overnight.',
     },
     {
       id: 68,
@@ -682,7 +743,8 @@ export async function seedUserReports() {
       end_datetime: '2024-02-04T14:30:00Z',
       lor_code: '063005',
       gps: 'Latitude: 52.538411, Longitude: 13.388012',
-      description: 'Parked my bike outside the cinema and it was stolen during the movie.'
+      description:
+        'Parked my bike outside the cinema and it was stolen during the movie.',
     },
     {
       id: 69,
@@ -692,7 +754,8 @@ export async function seedUserReports() {
       end_datetime: '2024-08-10T14:30:00Z',
       lor_code: '062003',
       gps: 'Latitude: 52.500478, Longitude: 13.326361',
-      description: 'Chained my bike to a fence while visiting a friend and it was stolen.'
+      description:
+        'Chained my bike to a fence while visiting a friend and it was stolen.',
     },
     {
       id: 70,
@@ -702,7 +765,8 @@ export async function seedUserReports() {
       end_datetime: '2024-03-18T14:30:00Z',
       lor_code: '034008',
       gps: 'Latitude: 52.524952, Longitude: 13.363768',
-      description: 'Locked my bike outside the museum and it was gone when I came out.'
+      description:
+        'Locked my bike outside the museum and it was gone when I came out.',
     },
     {
       id: 71,
@@ -712,7 +776,8 @@ export async function seedUserReports() {
       end_datetime: '2023-06-30T14:30:00Z',
       lor_code: '053008',
       gps: 'Latitude: 52.511831, Longitude: 13.449019',
-      description: 'Secured my bike in the bike storage room of my apartment building and it was stolen.'
+      description:
+        'Secured my bike in the bike storage room of my apartment building and it was stolen.',
     },
     {
       id: 72,
@@ -722,7 +787,8 @@ export async function seedUserReports() {
       end_datetime: '2024-08-06T14:30:00Z',
       lor_code: '051001',
       gps: 'Latitude: 52.542821, Longitude: 13.379732',
-      description: 'Rode my bike to a café for coffee and it was stolen while I was inside.'
+      description:
+        'Rode my bike to a café for coffee and it was stolen while I was inside.',
     },
     {
       id: 73,
@@ -732,7 +798,8 @@ export async function seedUserReports() {
       end_datetime: '2024-07-15T14:30:00Z',
       lor_code: '012005',
       gps: 'Latitude: 52.498270, Longitude: 13.343319',
-      description: 'Left my bike in the backyard overnight and it was stolen by morning.'
+      description:
+        'Left my bike in the backyard overnight and it was stolen by morning.',
     },
     {
       id: 74,
@@ -742,7 +809,8 @@ export async function seedUserReports() {
       end_datetime: '2024-03-14T14:30:00Z',
       lor_code: '062004',
       gps: 'Latitude: 52.532233, Longitude: 13.412128',
-      description: 'Parked my bike outside the library and it was stolen while I was studying.'
+      description:
+        'Parked my bike outside the library and it was stolen while I was studying.',
     },
     {
       id: 75,
@@ -752,7 +820,8 @@ export async function seedUserReports() {
       end_datetime: '2023-03-04T14:30:00Z',
       lor_code: '014010',
       gps: 'Latitude: 52.507274, Longitude: 13.362741',
-      description: 'Chained my bike to a tree in the park and it was stolen while I was walking around.'
+      description:
+        'Chained my bike to a tree in the park and it was stolen while I was walking around.',
     },
     {
       id: 76,
@@ -762,7 +831,8 @@ export async function seedUserReports() {
       end_datetime: '2023-04-29T14:30:00Z',
       lor_code: '043006',
       gps: 'Latitude: 52.519523, Longitude: 13.370394',
-      description: 'Locked my bike outside the office building and it was stolen during the workday.'
+      description:
+        'Locked my bike outside the office building and it was stolen during the workday.',
     },
     {
       id: 77,
@@ -772,7 +842,8 @@ export async function seedUserReports() {
       end_datetime: '2024-12-13T14:30:00Z',
       lor_code: '037016',
       gps: 'Latitude: 52.529919, Longitude: 13.398813',
-      description: 'Secured my bike in the underground parking garage and it was stolen.'
+      description:
+        'Secured my bike in the underground parking garage and it was stolen.',
     },
     {
       id: 78,
@@ -782,7 +853,8 @@ export async function seedUserReports() {
       end_datetime: '2024-03-02T14:30:00Z',
       lor_code: '023004',
       gps: 'Latitude: 52.496857, Longitude: 13.341648',
-      description: 'Rode my bike to the market and it was stolen while I was shopping.'
+      description:
+        'Rode my bike to the market and it was stolen while I was shopping.',
     },
     {
       id: 79,
@@ -792,7 +864,8 @@ export async function seedUserReports() {
       end_datetime: '2023-10-13T14:30:00Z',
       lor_code: '045009',
       gps: 'Latitude: 52.537985, Longitude: 13.392635',
-      description: 'Left my bike in the hallway of my apartment building and it was stolen.'
+      description:
+        'Left my bike in the hallway of my apartment building and it was stolen.',
     },
     {
       id: 80,
@@ -802,7 +875,8 @@ export async function seedUserReports() {
       end_datetime: '2023-02-23T14:30:00Z',
       lor_code: '024005',
       gps: 'Latitude: 52.509663, Longitude: 13.373144',
-      description: 'Parked my bike outside the restaurant and it was stolen during dinner.'
+      description:
+        'Parked my bike outside the restaurant and it was stolen during dinner.',
     },
     {
       id: 81,
@@ -812,7 +886,8 @@ export async function seedUserReports() {
       end_datetime: '2023-04-01T14:30:00Z',
       lor_code: '033004',
       gps: 'Latitude: 52.523206, Longitude: 13.408537',
-      description: 'Chained my bike to a railing at the beach and it was stolen while I was swimming.'
+      description:
+        'Chained my bike to a railing at the beach and it was stolen while I was swimming.',
     },
     {
       id: 82,
@@ -822,7 +897,8 @@ export async function seedUserReports() {
       end_datetime: '2024-10-18T14:30:00Z',
       lor_code: '036012',
       gps: 'Latitude: 52.514732, Longitude: 13.347978',
-      description: 'Locked my bike outside the concert venue and it was stolen during the show.'
+      description:
+        'Locked my bike outside the concert venue and it was stolen during the show.',
     },
     {
       id: 83,
@@ -832,7 +908,7 @@ export async function seedUserReports() {
       end_datetime: '2023-11-14T14:30:00Z',
       lor_code: '014010',
       gps: 'Latitude: 52.539366, Longitude: 13.393053',
-      description: 'Secured my bike in the backyard shed and it was stolen.'
+      description: 'Secured my bike in the backyard shed and it was stolen.',
     },
     {
       id: 84,
@@ -842,7 +918,8 @@ export async function seedUserReports() {
       end_datetime: '2024-01-28T14:30:00Z',
       lor_code: '012006',
       gps: 'Latitude: 52.501234, Longitude: 13.328998',
-      description: 'Rode my bike to the sports field and it was stolen while I was playing.'
+      description:
+        'Rode my bike to the sports field and it was stolen while I was playing.',
     },
     {
       id: 85,
@@ -852,7 +929,7 @@ export async function seedUserReports() {
       end_datetime: '2024-08-14T14:30:00Z',
       lor_code: '043004',
       gps: 'Latitude: 52.526084, Longitude: 13.366547',
-      description: 'Left my bike in the garage overnight and it was stolen.'
+      description: 'Left my bike in the garage overnight and it was stolen.',
     },
     {
       id: 86,
@@ -862,7 +939,8 @@ export async function seedUserReports() {
       end_datetime: '2023-03-01T14:30:00Z',
       lor_code: '021001',
       gps: 'Latitude: 52.513019, Longitude: 13.452393',
-      description: 'Parked my bike outside the café and it was stolen while I was chatting with friends.'
+      description:
+        'Parked my bike outside the café and it was stolen while I was chatting with friends.',
     },
     {
       id: 87,
@@ -872,7 +950,7 @@ export async function seedUserReports() {
       end_datetime: '2024-02-05T14:30:00Z',
       lor_code: '062004',
       gps: 'Latitude: 52.538726, Longitude: 13.382255',
-      description: 'Chained my bike to a signpost and it was stolen overnight.'
+      description: 'Chained my bike to a signpost and it was stolen overnight.',
     },
     {
       id: 88,
@@ -882,7 +960,8 @@ export async function seedUserReports() {
       end_datetime: '2023-06-23T14:30:00Z',
       lor_code: '051003',
       gps: 'Latitude: 52.496045, Longitude: 13.346984',
-      description: 'Locked my bike outside the office building and it was stolen before I left work.'
+      description:
+        'Locked my bike outside the office building and it was stolen before I left work.',
     },
     {
       id: 89,
@@ -892,7 +971,8 @@ export async function seedUserReports() {
       end_datetime: '2023-10-30T14:30:00Z',
       lor_code: '043004',
       gps: 'Latitude: 52.530186, Longitude: 13.415732',
-      description: 'Secured my bike in the bike cage at the train station and it was stolen.'
+      description:
+        'Secured my bike in the bike cage at the train station and it was stolen.',
     },
     {
       id: 90,
@@ -902,7 +982,8 @@ export async function seedUserReports() {
       end_datetime: '2024-10-23T14:30:00Z',
       lor_code: '045010',
       gps: 'Latitude: 52.503982, Longitude: 13.366485',
-      description: 'Rode my bike to the park for a picnic and it was stolen while I was relaxing.'
+      description:
+        'Rode my bike to the park for a picnic and it was stolen while I was relaxing.',
     },
     {
       id: 91,
@@ -912,7 +993,7 @@ export async function seedUserReports() {
       end_datetime: '2023-01-12T14:30:00Z',
       lor_code: '014009',
       gps: 'Latitude: 52.517389, Longitude: 13.373019',
-      description: 'Left my bike in the garage overnight and it was stolen.'
+      description: 'Left my bike in the garage overnight and it was stolen.',
     },
     {
       id: 92,
@@ -922,7 +1003,8 @@ export async function seedUserReports() {
       end_datetime: '2023-07-10T14:30:00Z',
       lor_code: '045010',
       gps: 'Latitude: 52.525751, Longitude: 13.399276',
-      description: 'Parked my bike outside the café and it was stolen while I was chatting with friends.'
+      description:
+        'Parked my bike outside the café and it was stolen while I was chatting with friends.',
     },
     {
       id: 93,
@@ -932,7 +1014,7 @@ export async function seedUserReports() {
       end_datetime: '2023-03-07T14:30:00Z',
       lor_code: '043004',
       gps: 'Latitude: 52.492768, Longitude: 13.341728',
-      description: 'Chained my bike to a signpost and it was stolen overnight.'
+      description: 'Chained my bike to a signpost and it was stolen overnight.',
     },
     {
       id: 94,
@@ -942,7 +1024,8 @@ export async function seedUserReports() {
       end_datetime: '2024-07-18T14:30:00Z',
       lor_code: '045011',
       gps: 'Latitude: 52.534331, Longitude: 13.391022',
-      description: 'Locked my bike outside the office building and it was stolen before I left work.'
+      description:
+        'Locked my bike outside the office building and it was stolen before I left work.',
     },
     {
       id: 95,
@@ -952,7 +1035,8 @@ export async function seedUserReports() {
       end_datetime: '2023-07-04T14:30:00Z',
       lor_code: '064008',
       gps: 'Latitude: 52.507112, Longitude: 13.372229',
-      description: 'Secured my bike in the bike cage at the train station and it was stolen.'
+      description:
+        'Secured my bike in the bike cage at the train station and it was stolen.',
     },
     {
       id: 96,
@@ -962,7 +1046,8 @@ export async function seedUserReports() {
       end_datetime: '2024-04-13T14:30:00Z',
       lor_code: '024006',
       gps: 'Latitude: 52.520938, Longitude: 13.407759',
-      description: 'Rode my bike to the park for a picnic and it was stolen while I was relaxing.'
+      description:
+        'Rode my bike to the park for a picnic and it was stolen while I was relaxing.',
     },
     {
       id: 97,
@@ -972,7 +1057,7 @@ export async function seedUserReports() {
       end_datetime: '2023-07-23T14:30:00Z',
       lor_code: '035009',
       gps: 'Latitude: 52.512938, Longitude: 13.347682',
-      description: 'Left my bike in the garage overnight and it was stolen.'
+      description: 'Left my bike in the garage overnight and it was stolen.',
     },
     {
       id: 98,
@@ -982,7 +1067,8 @@ export async function seedUserReports() {
       end_datetime: '2023-10-07T14:30:00Z',
       lor_code: '061002',
       gps: 'Latitude: 52.537411, Longitude: 13.389012',
-      description: 'Parked my bike outside the café and it was stolen while I was chatting with friends.'
+      description:
+        'Parked my bike outside the café and it was stolen while I was chatting with friends.',
     },
     {
       id: 99,
@@ -992,7 +1078,7 @@ export async function seedUserReports() {
       end_datetime: '2024-04-10T14:30:00Z',
       lor_code: '063006',
       gps: 'Latitude: 52.499478, Longitude: 13.327361',
-      description: 'Chained my bike to a signpost and it was stolen overnight.'
+      description: 'Chained my bike to a signpost and it was stolen overnight.',
     },
     {
       id: 100,
@@ -1002,9 +1088,10 @@ export async function seedUserReports() {
       end_datetime: '2024-05-16T14:30:00Z',
       lor_code: '051003',
       gps: 'Latitude: 52.523952, Longitude: 13.364768',
-      description: 'Locked my bike outside the office building and it was stolen before I left work.'
-    }
-  ]
+      description:
+        'Locked my bike outside the office building and it was stolen before I left work.',
+    },
+  ];
 
   for (const data of userData) {
     await prisma.userReport.upsert({
@@ -1014,11 +1101,3 @@ export async function seedUserReports() {
     });
   }
 }
-
-
-
-
-
-
-
-
