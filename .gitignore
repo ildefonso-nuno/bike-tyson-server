@@ -26,6 +26,9 @@ lerna-debug.log*
 # Credentials
 credentials/
 
+# DB scrips
+db/scripts/csv/
+
 # Production
 dist/
 build/
