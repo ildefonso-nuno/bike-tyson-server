@@ -1819,7 +1819,7 @@ export async function seedBicycles() {
   description: 'Adventure-ready gravel bike for exploring diverse terrain.',
   owner: true,
   photos_url: [
-    '{https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884322.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+    'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884322.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
   ]
 },
     {
@@ -1837,7 +1837,7 @@ export async function seedBicycles() {
       description: 'High-performance mountain bike for aggressive trail',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/close-up-bike-nature_23-2150814860.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/close-up-bike-nature_23-2150814860.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -1855,7 +1855,7 @@ export async function seedBicycles() {
       description: 'Smooth ride for urban commutes and leisurely weekend rides.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884260.jpg?semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884260.jpg?semt=ais_user_ai_gen'
       ]
     },
     {
@@ -1873,7 +1873,7 @@ export async function seedBicycles() {
       description: 'Versatile bike for gravel racing and long-distance adventures.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884272.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884272.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -1891,7 +1891,7 @@ export async function seedBicycles() {
       description: 'High-end performance bike for technical mountain trails.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884266.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884266.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -1909,7 +1909,7 @@ export async function seedBicycles() {
       description: 'Top-of-the-line road bike for professional racing and enthusiasts.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/close-up-bicycle-details-parts_23-2150834356.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/close-up-bicycle-details-parts_23-2150834356.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -1927,7 +1927,7 @@ export async function seedBicycles() {
       description: 'Stylish and comfortable bike for city commuting and casual rides.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834280.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834280.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -1945,7 +1945,7 @@ export async function seedBicycles() {
       description: 'Electric fat tire bike for all-terrain exploration and commuting.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884254.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884254.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -1963,7 +1963,7 @@ export async function seedBicycles() {
       description: 'Compact folding bike for urban mobility and easy storage.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/bicycle-with-basket-front-is-parked-against-wall_1340-38311.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/bicycle-with-basket-front-is-parked-against-wall_1340-38311.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -1981,7 +1981,7 @@ export async function seedBicycles() {
       description: 'Versatile bike for city streets',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884248.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884248.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -1999,7 +1999,7 @@ export async function seedBicycles() {
       description: 'Affordable gravel bike for entry-level riders and adventure seekers.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884252.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884252.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2017,7 +2017,7 @@ export async function seedBicycles() {
       description: 'Full-suspension mountain bike for technical descents and trail riding.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/red-bike-is-parked-front-mountain-landscape_1340-38313.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/red-bike-is-parked-front-mountain-landscape_1340-38313.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2035,7 +2035,7 @@ export async function seedBicycles() {
       description: 'Endurance road bike for long-distance comfort and performance.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884292.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884292.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2053,7 +2053,7 @@ export async function seedBicycles() {
       description: 'Comfortable city bike for leisurely rides and exploring urban areas.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880319.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880319.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2071,7 +2071,7 @@ export async function seedBicycles() {
       description: 'Powerful electric bike for commuting and long-range rides.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880330.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880330.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2089,7 +2089,7 @@ export async function seedBicycles() {
       description: 'Premium folding bike with sleek design and compact foldability.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880323.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880323.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2107,7 +2107,7 @@ export async function seedBicycles() {
       description: 'Versatile bike for city streets',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834260.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834260.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2125,7 +2125,7 @@ export async function seedBicycles() {
       description: 'Adventure-ready gravel bike for exploring diverse terrain.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884322.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884322.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2143,7 +2143,7 @@ export async function seedBicycles() {
       description: 'High-performance mountain bike for aggressive trail riding and enduro racing.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/close-up-bike-nature_23-2150814860.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/close-up-bike-nature_23-2150814860.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2161,7 +2161,7 @@ export async function seedBicycles() {
       description: 'Aero road bike for speed and performance in competitive racing.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884260.jpg?semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884260.jpg?semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2179,7 +2179,7 @@ export async function seedBicycles() {
       description: 'Stylish and comfortable bike for city commuting and casual rides.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884272.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884272.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2197,7 +2197,7 @@ export async function seedBicycles() {
       description: 'Powerful electric assistance for off-road adventures.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884266.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884266.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2215,7 +2215,7 @@ export async function seedBicycles() {
       description: 'Compact and portable for easy storage and transportation.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/close-up-bicycle-details-parts_23-2150834356.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/close-up-bicycle-details-parts_23-2150834356.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2233,7 +2233,7 @@ export async function seedBicycles() {
       description: 'Smooth ride for urban commutes and leisurely weekend rides.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834280.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834280.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2251,7 +2251,7 @@ export async function seedBicycles() {
       description: 'Versatile bike for gravel racing and long-distance adventures.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884254.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884254.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2269,7 +2269,7 @@ export async function seedBicycles() {
       description: 'High-end performance bike for technical mountain trails.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/bicycle-with-basket-front-is-parked-against-wall_1340-38311.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/bicycle-with-basket-front-is-parked-against-wall_1340-38311.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2287,7 +2287,7 @@ export async function seedBicycles() {
       description: 'Top-of-the-line road bike for professional racing and enthusiasts.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884248.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884248.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2305,7 +2305,7 @@ export async function seedBicycles() {
       description: 'Stylish and comfortable bike for city commuting and casual rides.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884252.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884252.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2323,7 +2323,7 @@ export async function seedBicycles() {
       description: 'Electric fat tire bike for all-terrain exploration and commuting.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/red-bike-is-parked-front-mountain-landscape_1340-38313.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/red-bike-is-parked-front-mountain-landscape_1340-38313.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2341,7 +2341,7 @@ export async function seedBicycles() {
       description: 'Compact folding bike for urban mobility and easy storage.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884292.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884292.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2359,7 +2359,7 @@ export async function seedBicycles() {
       description: 'Versatile bike for city streets',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880319.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880319.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2377,7 +2377,7 @@ export async function seedBicycles() {
       description: 'Affordable gravel bike for entry-level riders and adventure seekers.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880330.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880330.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2395,7 +2395,7 @@ export async function seedBicycles() {
       description: 'Full-suspension mountain bike for technical descents and trail riding.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880323.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880323.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2413,7 +2413,7 @@ export async function seedBicycles() {
       description: 'Endurance road bike for long-distance comfort and performance.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834260.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834260.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2431,7 +2431,7 @@ export async function seedBicycles() {
       description: 'Comfortable city bike for leisurely rides and exploring urban areas.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884322.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884322.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2449,7 +2449,7 @@ export async function seedBicycles() {
       description: 'Powerful electric bike for commuting and long-range rides.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/close-up-bike-nature_23-2150814860.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/close-up-bike-nature_23-2150814860.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2467,7 +2467,7 @@ export async function seedBicycles() {
       description: 'Premium folding bike with sleek design and compact foldability.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884260.jpg?semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884260.jpg?semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2485,7 +2485,7 @@ export async function seedBicycles() {
       description: 'Versatile bike for city streets',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884272.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884272.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2503,7 +2503,7 @@ export async function seedBicycles() {
       description: 'Adventure-ready gravel bike for exploring diverse terrain.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884266.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884266.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2521,7 +2521,7 @@ export async function seedBicycles() {
       description: 'High-performance mountain bike for aggressive trail riding and enduro racing.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/close-up-bicycle-details-parts_23-2150834356.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/close-up-bicycle-details-parts_23-2150834356.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2539,7 +2539,7 @@ export async function seedBicycles() {
       description: 'Aero road bike for speed and performance in competitive racing.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834280.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834280.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2557,7 +2557,7 @@ export async function seedBicycles() {
       description: 'Stylish and comfortable bike for city commuting and casual rides.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884254.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884254.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2575,7 +2575,7 @@ export async function seedBicycles() {
       description: 'Powerful electric assistance for off-road adventures.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/bicycle-with-basket-front-is-parked-against-wall_1340-38311.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/bicycle-with-basket-front-is-parked-against-wall_1340-38311.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2593,7 +2593,7 @@ export async function seedBicycles() {
       description: 'Compact and portable for easy storage and transportation.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884248.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884248.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2611,7 +2611,7 @@ export async function seedBicycles() {
       description: 'Smooth ride for urban commutes and leisurely weekend rides.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884252.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884252.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2629,7 +2629,7 @@ export async function seedBicycles() {
       description: 'Versatile bike for gravel racing and long-distance adventures.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/red-bike-is-parked-front-mountain-landscape_1340-38313.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/red-bike-is-parked-front-mountain-landscape_1340-38313.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2647,7 +2647,7 @@ export async function seedBicycles() {
       description: 'High-end performance bike for technical mountain trails.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884292.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884292.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2665,7 +2665,7 @@ export async function seedBicycles() {
       description: 'Top-of-the-line road bike for professional racing and enthusiasts.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880319.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880319.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2683,7 +2683,7 @@ export async function seedBicycles() {
       description: 'Stylish and comfortable bike for city commuting and casual rides.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880330.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880330.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2701,7 +2701,7 @@ export async function seedBicycles() {
       description: 'Electric fat tire bike for all-terrain exploration and commuting.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880323.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880323.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2719,7 +2719,7 @@ export async function seedBicycles() {
       description: 'Compact folding bike for urban mobility and easy storage.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834260.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834260.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2737,7 +2737,7 @@ export async function seedBicycles() {
       description: 'Versatile bike for city streets',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884322.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884322.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2755,7 +2755,7 @@ export async function seedBicycles() {
       description: 'Affordable gravel bike for entry-level riders and adventure seekers.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/close-up-bike-nature_23-2150814860.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/close-up-bike-nature_23-2150814860.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2773,7 +2773,7 @@ export async function seedBicycles() {
       description: 'Full-suspension mountain bike for technical descents and trail riding.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884260.jpg?semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884260.jpg?semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2791,7 +2791,7 @@ export async function seedBicycles() {
       description: 'Endurance road bike for long-distance comfort and performance.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884272.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884272.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2809,7 +2809,7 @@ export async function seedBicycles() {
       description: 'Comfortable city bike for leisurely rides and exploring urban areas.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884266.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884266.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2827,7 +2827,7 @@ export async function seedBicycles() {
       description: 'Powerful electric bike for commuting and long-range rides.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/close-up-bicycle-details-parts_23-2150834356.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/close-up-bicycle-details-parts_23-2150834356.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2845,7 +2845,7 @@ export async function seedBicycles() {
       description: 'Premium folding bike with sleek design and compact foldability.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834280.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834280.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2863,7 +2863,7 @@ export async function seedBicycles() {
       description: 'Versatile bike for city streets',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884254.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884254.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2881,7 +2881,7 @@ export async function seedBicycles() {
       description: 'Adventure-ready gravel bike for exploring diverse terrain.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/bicycle-with-basket-front-is-parked-against-wall_1340-38311.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/bicycle-with-basket-front-is-parked-against-wall_1340-38311.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2899,7 +2899,7 @@ export async function seedBicycles() {
       description: 'High-performance mountain bike for aggressive trail riding and enduro racing.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884248.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884248.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2917,7 +2917,7 @@ export async function seedBicycles() {
       description: 'Aero road bike for speed and performance in competitive racing.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884252.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884252.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2935,7 +2935,7 @@ export async function seedBicycles() {
       description: 'Stylish and comfortable bike for city commuting and casual rides.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/red-bike-is-parked-front-mountain-landscape_1340-38313.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/red-bike-is-parked-front-mountain-landscape_1340-38313.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2953,7 +2953,7 @@ export async function seedBicycles() {
       description: 'Powerful electric assistance for off-road adventures.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884292.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884292.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2971,7 +2971,7 @@ export async function seedBicycles() {
       description: 'Compact and portable for easy storage and transportation.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880319.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880319.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -2989,7 +2989,7 @@ export async function seedBicycles() {
       description: 'Smooth ride for urban commutes and leisurely weekend rides.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880330.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880330.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -3007,7 +3007,7 @@ export async function seedBicycles() {
       description: 'Versatile bike for gravel racing and long-distance adventures.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880323.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150880323.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -3025,7 +3025,7 @@ export async function seedBicycles() {
       description: 'High-end performance bike for technical mountain trails.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834260.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834260.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -3043,7 +3043,7 @@ export async function seedBicycles() {
       description: 'Top-of-the-line road bike for professional racing and enthusiasts.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884322.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884322.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -3061,7 +3061,7 @@ export async function seedBicycles() {
       description: 'Stylish and comfortable bike for city commuting and casual rides.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/close-up-bike-nature_23-2150814860.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/close-up-bike-nature_23-2150814860.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -3079,7 +3079,7 @@ export async function seedBicycles() {
       description: 'Electric fat tire bike for all-terrain exploration and commuting.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884260.jpg?semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884260.jpg?semt=ais_user_ai_gen'
       ]
     },
     {
@@ -3097,7 +3097,7 @@ export async function seedBicycles() {
       description: 'Compact folding bike for urban mobility and easy storage.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884272.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884272.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -3115,7 +3115,7 @@ export async function seedBicycles() {
       description: 'Versatile bike for city streets',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884266.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-outdoors_23-2150884266.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -3133,7 +3133,7 @@ export async function seedBicycles() {
       description: 'Affordable gravel bike for entry-level riders and adventure seekers.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/close-up-bicycle-details-parts_23-2150834356.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/close-up-bicycle-details-parts_23-2150834356.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -3151,7 +3151,7 @@ export async function seedBicycles() {
       description: 'Full-suspension mountain bike for technical descents and trail riding.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834280.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/view-bicycle-beach_23-2150834280.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -3169,7 +3169,7 @@ export async function seedBicycles() {
       description: 'Endurance road bike for long-distance comfort and performance.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884254.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884254.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -3187,7 +3187,7 @@ export async function seedBicycles() {
       description: 'Comfortable city bike for leisurely rides and exploring urban areas.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/bicycle-with-basket-front-is-parked-against-wall_1340-38311.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/bicycle-with-basket-front-is-parked-against-wall_1340-38311.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -3205,7 +3205,7 @@ export async function seedBicycles() {
       description: 'Powerful electric bike for commuting and long-range rides.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884248.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884248.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -3223,7 +3223,7 @@ export async function seedBicycles() {
       description: 'Premium folding bike with sleek design and compact foldability.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884252.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884252.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -3241,7 +3241,7 @@ export async function seedBicycles() {
       description: 'Versatile bike for city streets',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/red-bike-is-parked-front-mountain-landscape_1340-38313.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/red-bike-is-parked-front-mountain-landscape_1340-38313.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     },
     {
@@ -3259,7 +3259,7 @@ export async function seedBicycles() {
       description: 'Adventure-ready gravel bike for exploring diverse terrain.',
       owner: true,
       photos_url: [
-        '{https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884292.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen}'
+        'https://img.freepik.com/free-photo/cool-bicycle-studio_23-2150884292.jpg?ga=GA1.1.1050444771.1719842061&semt=ais_user_ai_gen'
       ]
     }
   ]
