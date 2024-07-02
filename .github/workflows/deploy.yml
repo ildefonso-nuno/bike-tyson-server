@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main
-      - feat-adding-git-actions
   workflow_dispatch:
     inputs:
       logLevel:
@@ -89,7 +88,7 @@ jobs:
           gcloud run deploy bike-tyson-server \
             --image gcr.io/${{ secrets.GOOGLE_CLOUD_PROJECT_ID }}/bike-tyson-server \
             --platform managed \
-            --region europe-west1 \
+            --region europe-west10 \
             --allow-unauthenticated \
             --service-account ${{ secrets.GOOGLE_SERVICE_ACCOUNT }} \
             --set-env-vars POSTGRES_USER=${POSTGRES_USER},POSTGRES_PASSWORD=${POSTGRES_PASSWORD},POSTGRES_DB=${POSTGRES_DB},POSTGRES_HOST=${POSTGRES_HOST},POSTGRES_PORT=${POSTGRES_PORT},DATABASE_URL=${DATABASE_URL},JWT_SECRET=${JWT_SECRET},EMAIL=${EMAIL},EMAIL_PASS=${EMAIL_PASS},COURIER_API_KEY=${COURIER_API_KEY},GOOGLE_CLIENT_ID=${GOOGLE_CLIENT_ID},GOOGLE_CLIENT_SECRET=${GOOGLE_CLIENT_SECRET},GOOGLE_REDIRECT_URI=${GOOGLE_REDIRECT_URI}
