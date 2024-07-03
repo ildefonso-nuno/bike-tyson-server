@@ -41,6 +41,7 @@ export const getAllBicyclesByUserId = async (
   try {
     const bicycles = await prisma.bicycle.findMany({
       where: { user_id },
+      include: { reports: true },
     });
     return bicycles;
   } catch (error) {
