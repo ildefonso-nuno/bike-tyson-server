@@ -7,11 +7,12 @@ import {
   updateBicycleController,
   deleteBicycleController,
 } from '../controllers/bicycle.controller';
+import { authenticateJWT } from '../middlewares/auth.middleware';
 
 const router = Router();
 
 // Create a new bicycle
-router.post('/', createBicycleController);
+router.post('/', authenticateJWT, createBicycleController);
 
 // Get all bicycles
 router.get('/', getAllBicyclesController);
@@ -23,9 +24,9 @@ router.get('/:id', getBicycleByIdController);
 router.get('/user/:user_id', getAllBicyclesByUserIdController);
 
 // Update a bicycle
-router.put('/', updateBicycleController);
+router.put('/', authenticateJWT, updateBicycleController);
 
 // Delete a bicycle
-router.delete('/', deleteBicycleController);
+router.delete('/', authenticateJWT, deleteBicycleController);
 
 export default router;

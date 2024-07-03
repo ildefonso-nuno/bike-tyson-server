@@ -8,11 +8,12 @@ import {
   getUserReportByUserIdController,
   getUserReportsByDateController,
 } from '../controllers/userReport.controller';
+import { authenticateJWT } from '../middlewares/auth.middleware';
 
 const router = Router();
 
 // Create a new user report
-router.post('/', createUserReportController);
+router.post('/', authenticateJWT, createUserReportController);
 
 // Get all user reports
 router.get('/', getAllUserReportsController);
@@ -27,9 +28,9 @@ router.get('/user/:userId', getUserReportByUserIdController);
 router.get('/last-reports/:type/:date', getUserReportsByDateController);
 
 // Update a user report
-router.put('/', updateUserReportController);
+router.put('/', authenticateJWT, updateUserReportController);
 
 // Delete a user report
-router.delete('/', deleteUserReportController);
+router.delete('/', authenticateJWT, deleteUserReportController);
 
 export default router;
