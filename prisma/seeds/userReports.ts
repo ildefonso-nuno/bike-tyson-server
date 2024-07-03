@@ -1094,10 +1094,11 @@ export async function seedUserReports() {
   ];
 
   for (const data of userData) {
+    const { id, ...dataWithoutId } = data;
     await prisma.userReport.upsert({
       where: { id: data.id },
       update: {},
-      create: data,
+      create: dataWithoutId,
     });
   }
 }

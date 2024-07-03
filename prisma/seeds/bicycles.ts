@@ -3369,10 +3369,11 @@ export async function seedBicycles() {
   ];
 
   for (const data of bicycleData) {
+    const { id, ...dataWithoutId } = data; // Destructure to exclude the id
     await prisma.bicycle.upsert({
-      where: { id: data.id },
+      where: { id },
       update: {}, // No updates if the record already exists
-      create: data,
+      create: dataWithoutId,
     });
   }
 }
