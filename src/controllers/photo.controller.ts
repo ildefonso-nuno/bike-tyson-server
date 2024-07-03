@@ -1,6 +1,7 @@
 import { Request, Response } from 'express';
 import { uploadPhotos } from '../services/photo.service';
 import { updateBicycle } from '../services/bicycle.service';
+import { updateUser } from '../services/user.service';
 
 export const uploadPhotosController = async (
   req: Request,
@@ -19,7 +20,10 @@ export const uploadPhotosController = async (
       return;
     }
 
-    if (bucketName !== process.env.BICYCLE_BUCKET_NAME) {
+    if (
+      bucketName !== process.env.BICYCLE_BUCKET_NAME ||
+      bucketName !== process.env.USER_BUCKET_NAME
+    ) {
       res.status(400).json({ error: 'Invalid bucket name' });
       return;
     }
@@ -31,6 +35,13 @@ export const uploadPhotosController = async (
     if (bucketName === process.env.BICYCLE_BUCKET_NAME) {
       await updateBicycle(parseInt(itemId, 10), {
         photos_url: {
+          push: publicUrls,
+        },
+      });
+    }
+    if (bucketName === process.env.USER_BUCKET_NAME) {
+      await updateUser(parseInt(itemId, 10), {
+        profile_pic_url: {
           push: publicUrls,
         },
       });
