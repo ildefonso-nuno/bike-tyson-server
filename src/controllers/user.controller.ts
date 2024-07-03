@@ -20,7 +20,7 @@ export const updateUserController = async (
 ): Promise<void> => {
   try {
     const userId = (req as any).user.userId;
-    const { updateData } = req.body;
+    const updateData = req.body;
     const updatedUser = await updateUser(userId, updateData);
     res.status(200).json(updatedUser);
   } catch (error) {
