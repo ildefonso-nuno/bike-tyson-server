@@ -4,7 +4,7 @@ This is the backend server for the Bike Tyson application.
 
 ## Prerequisites
 
-- Node.js (v14 or higher)
+- Node.js (v21 or higher)
 - Docker (for running the database)
 
 ## Getting Started
