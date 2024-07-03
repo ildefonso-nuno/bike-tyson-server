@@ -12,25 +12,21 @@ export const uploadPhotosController = async (
       res.status(400).json({ error: 'No files uploaded' });
       return;
     }
-
     const { bucketName, itemId } = req.body;
 
     if (!bucketName || !itemId) {
       res.status(400).json({ error: 'Bucket name and item ID are required' });
       return;
     }
-
     if (
-      bucketName !== process.env.BICYCLE_BUCKET_NAME ||
+      bucketName !== process.env.BICYCLE_BUCKET_NAME &&
       bucketName !== process.env.USER_BUCKET_NAME
     ) {
       res.status(400).json({ error: 'Invalid bucket name' });
       return;
     }
-
     const files = req.files as Express.Multer.File[];
     const publicUrls = await uploadPhotos(files, bucketName);
-
     // Save photo URLs to the correct table based on the bucket name
     if (bucketName === process.env.BICYCLE_BUCKET_NAME) {
       await updateBicycle(parseInt(itemId, 10), {
@@ -41,9 +37,7 @@ export const uploadPhotosController = async (
     }
     if (bucketName === process.env.USER_BUCKET_NAME) {
       await updateUser(parseInt(itemId, 10), {
-        profile_pic_url: {
-          push: publicUrls,
-        },
+        profile_pic_url: publicUrls[0],
       });
     }
 
