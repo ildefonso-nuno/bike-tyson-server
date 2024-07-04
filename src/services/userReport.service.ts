@@ -54,6 +54,9 @@ export const getUserReportByEndDateTime = async (
       },
     },
     include: { bicycle: true },
+    orderBy: {
+      end_datetime: 'desc',
+    },
   });
 
   return reports.map((report) => {
@@ -88,6 +91,9 @@ export const getUserReportByCreatedDate = async (
       },
     },
     include: { bicycle: true },
+    orderBy: {
+      created_at: 'desc',
+    },
   });
 
   return reports.map((report) => {
